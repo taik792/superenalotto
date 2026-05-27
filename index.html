@@ -41,28 +41,64 @@
 </div>
 
 <script>
+    // Carica il file estrazioni.json aggiornato
     fetch('estrazioni.json')
         .then(res => res.json())
         .then(data => {
-            // Filtra per anno 2026 e trova il concorso 83
-            const concorso83 = data.find(c => c.anno === 2026 && c.concorso === 83);
+            // 1. Ordina per concorso (fondamentale per calcolare i ritardatari)
+            data.sort((a, b) => a.concorso - b.concorso);
             
-            // Se non trova l'83, cade di default sull'ultimo elemento dell'array
-            const last = concorso83 || data[data.length - 1];
-            
-            // Visualizzazione Dati
-            document.getElementById('last-data').innerHTML = `
-                <p><strong>Concorso n. ${last.concorso} (${last.anno})</strong></p>
-                Numeri: ${last.numeri.join(", ")} <br>
-                Jolly: <strong>${last.jolly !== undefined ? last.jolly : "N/A"}</strong> | 
-                SuperStar: <strong>${last.superstar}</strong>
-            `;
-            
-            // Visualizzazione Sestina (Verde) + Superstar (Rossa)
+            // 2. Analisi Frequenze e Ritardi
+            let frequenze = {};
+            let ultimaPresenza = {};
+            let totaleConcorsi = data.length;
+
+            data.forEach((c, index) => {
+                c.numeri.forEach(num => {
+                    frequenze[num] = (frequenze[num] || 0) + 1;
+                    ultimaPresenza[num] = index; // Indice dell'ultima volta che è uscito
+                });
+            });
+
+            // 3. Calcolo 4 Frequenti
+            let sortedFreq = Object.keys(frequenze).sort((a, b) => frequenze[b] - frequenze[a]);
+            let quattroFrequenti = sortedFreq.slice(0, 4).map(Number);
+
+            // 4. Calcolo 2 Ritardatari
+            // (Chi ha l'ultimaPresenza più bassa è il più ritardatario)
+            let sortedRitardatari = Object.keys(frequenze).sort((a, b) => ultimaPresenza[a] - ultimaPresenza[b]);
+            let dueRitardatari = sortedRitardatari.slice(0, 2).map(Number);
+
+            // 5. Unione Sestina (con controllo doppioni)
+            let setSestina = new Set([...quattroFrequenti, ...dueRitardatari]);
+            let sestina = Array.from(setSestina).sort((a, b) => a - b);
+
+            // Se per caso abbiamo meno di 6 numeri, aggiungiamo casuali per completare
+            while(sestina.length < 6) {
+                let r = Math.floor(Math.random() * 90) + 1;
+                if(!sestina.includes(r)) sestina.push(r);
+            }
+            sestina = sestina.slice(0, 6).sort((a, b) => a - b);
+
+            // 6. Calcolo SuperStar (frequente nelle ultime 150 estrazioni)
+            let last150 = data.slice(-150);
+            let ssFreq = {};
+            last150.forEach(c => ssFreq[c.superstar] = (ssFreq[c.superstar] || 0) + 1);
+            let superStar = Object.keys(ssFreq).sort((a, b) => ssFreq[b] - ssFreq[a])[0];
+
+            // 7. Visualizzazione in pagina (Assicurati di avere l'ID 'sestina-generata')
             document.getElementById('sestina-generata').innerHTML = `
-                ${last.numeri.map(n => `<span class="ball">${n}</span>`).join('')}
-                <span class="ball" style="background:#e11d48">${last.superstar}</span>
+                <div class="sestina-container">
+                    ${sestina.map(n => `<span class="ball">${n}</span>`).join('')}
+                    <span class="ball superstar">${superStar}</span>
+                </div>
             `;
+            
+            console.log("Motore statistico aggiornato correttamente.");
+        })
+        .catch(err => {
+            console.error("Errore nel caricamento del file JSON:", err);
+            document.getElementById('sestina-generata').innerHTML = "Errore nel caricamento dei dati.";
         });
 </script>
 </body>
