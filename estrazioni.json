@@ -1,0 +1,6988 @@
+[
+    {
+        "concorso": 208,
+        "anno": 2024,
+        "numeri": [
+            5,
+            16,
+            23,
+            40,
+            47,
+            80
+        ],
+        "jolly": 17,
+        "superstar": 13
+    },
+    {
+        "concorso": 207,
+        "anno": 2024,
+        "numeri": [
+            3,
+            8,
+            18,
+            25,
+            58,
+            75
+        ],
+        "jolly": 12,
+        "superstar": 54
+    },
+    {
+        "concorso": 206,
+        "anno": 2024,
+        "numeri": [
+            28,
+            29,
+            46,
+            68,
+            81,
+            88
+        ],
+        "jolly": 79,
+        "superstar": 40
+    },
+    {
+        "concorso": 205,
+        "anno": 2024,
+        "numeri": [
+            9,
+            13,
+            15,
+            43,
+            53,
+            68
+        ],
+        "jolly": 58,
+        "superstar": 69
+    },
+    {
+        "concorso": 204,
+        "anno": 2024,
+        "numeri": [
+            6,
+            18,
+            27,
+            30,
+            52,
+            56
+        ],
+        "jolly": 83,
+        "superstar": 80
+    },
+    {
+        "concorso": 203,
+        "anno": 2024,
+        "numeri": [
+            23,
+            25,
+            53,
+            55,
+            71,
+            79
+        ],
+        "jolly": 63,
+        "superstar": 6
+    },
+    {
+        "concorso": 202,
+        "anno": 2024,
+        "numeri": [
+            17,
+            35,
+            43,
+            56,
+            63,
+            85
+        ],
+        "jolly": 23,
+        "superstar": 74
+    },
+    {
+        "concorso": 201,
+        "anno": 2024,
+        "numeri": [
+            2,
+            4,
+            8,
+            20,
+            22,
+            76
+        ],
+        "jolly": 72,
+        "superstar": 60
+    },
+    {
+        "concorso": 200,
+        "anno": 2024,
+        "numeri": [
+            3,
+            25,
+            49,
+            58,
+            64,
+            66
+        ],
+        "jolly": 46,
+        "superstar": 77
+    },
+    {
+        "concorso": 199,
+        "anno": 2024,
+        "numeri": [
+            34,
+            50,
+            52,
+            59,
+            70,
+            83
+        ],
+        "jolly": 13,
+        "superstar": 74
+    },
+    {
+        "concorso": 198,
+        "anno": 2024,
+        "numeri": [
+            16,
+            42,
+            54,
+            55,
+            65,
+            83
+        ],
+        "jolly": 27,
+        "superstar": 90
+    },
+    {
+        "concorso": 197,
+        "anno": 2024,
+        "numeri": [
+            20,
+            61,
+            76,
+            78,
+            85,
+            87
+        ],
+        "jolly": 44,
+        "superstar": 72
+    },
+    {
+        "concorso": 196,
+        "anno": 2024,
+        "numeri": [
+            5,
+            54,
+            68,
+            69,
+            71,
+            81
+        ],
+        "jolly": 30,
+        "superstar": 56
+    },
+    {
+        "concorso": 195,
+        "anno": 2024,
+        "numeri": [
+            21,
+            30,
+            55,
+            60,
+            70,
+            75
+        ],
+        "jolly": 13,
+        "superstar": 25
+    },
+    {
+        "concorso": 194,
+        "anno": 2024,
+        "numeri": [
+            21,
+            48,
+            60,
+            61,
+            67,
+            71
+        ],
+        "jolly": 86,
+        "superstar": 22
+    },
+    {
+        "concorso": 193,
+        "anno": 2024,
+        "numeri": [
+            4,
+            42,
+            45,
+            72,
+            82,
+            84
+        ],
+        "jolly": 25,
+        "superstar": 10
+    },
+    {
+        "concorso": 192,
+        "anno": 2024,
+        "numeri": [
+            4,
+            17,
+            37,
+            56,
+            73,
+            90
+        ],
+        "jolly": 46,
+        "superstar": 11
+    },
+    {
+        "concorso": 191,
+        "anno": 2024,
+        "numeri": [
+            27,
+            48,
+            50,
+            69,
+            74,
+            81
+        ],
+        "jolly": 13,
+        "superstar": 36
+    },
+    {
+        "concorso": 190,
+        "anno": 2024,
+        "numeri": [
+            21,
+            33,
+            44,
+            55,
+            75,
+            80
+        ],
+        "jolly": 53,
+        "superstar": 64
+    },
+    {
+        "concorso": 189,
+        "anno": 2024,
+        "numeri": [
+            3,
+            8,
+            37,
+            54,
+            74,
+            84
+        ],
+        "jolly": 26,
+        "superstar": 26
+    },
+    {
+        "concorso": 188,
+        "anno": 2024,
+        "numeri": [
+            13,
+            23,
+            26,
+            31,
+            46,
+            89
+        ],
+        "jolly": 43,
+        "superstar": 24
+    },
+    {
+        "concorso": 187,
+        "anno": 2024,
+        "numeri": [
+            15,
+            22,
+            29,
+            32,
+            35,
+            67
+        ],
+        "jolly": 87,
+        "superstar": 23
+    },
+    {
+        "concorso": 186,
+        "anno": 2024,
+        "numeri": [
+            6,
+            26,
+            51,
+            53,
+            78,
+            89
+        ],
+        "jolly": 79,
+        "superstar": 70
+    },
+    {
+        "concorso": 185,
+        "anno": 2024,
+        "numeri": [
+            4,
+            7,
+            20,
+            24,
+            41,
+            67
+        ],
+        "jolly": 85,
+        "superstar": 35
+    },
+    {
+        "concorso": 184,
+        "anno": 2024,
+        "numeri": [
+            20,
+            34,
+            36,
+            68,
+            72,
+            74
+        ],
+        "jolly": 44,
+        "superstar": 49
+    },
+    {
+        "concorso": 183,
+        "anno": 2024,
+        "numeri": [
+            52,
+            56,
+            66,
+            68,
+            70,
+            73
+        ],
+        "jolly": 90,
+        "superstar": 12
+    },
+    {
+        "concorso": 182,
+        "anno": 2024,
+        "numeri": [
+            2,
+            4,
+            5,
+            42,
+            53,
+            83
+        ],
+        "jolly": 23,
+        "superstar": 43
+    },
+    {
+        "concorso": 181,
+        "anno": 2024,
+        "numeri": [
+            36,
+            46,
+            69,
+            70,
+            73,
+            82
+        ],
+        "jolly": 26,
+        "superstar": 84
+    },
+    {
+        "concorso": 180,
+        "anno": 2024,
+        "numeri": [
+            13,
+            28,
+            29,
+            32,
+            39,
+            81
+        ],
+        "jolly": 82,
+        "superstar": 36
+    },
+    {
+        "concorso": 179,
+        "anno": 2024,
+        "numeri": [
+            26,
+            36,
+            43,
+            51,
+            63,
+            89
+        ],
+        "jolly": 21,
+        "superstar": 57
+    },
+    {
+        "concorso": 178,
+        "anno": 2024,
+        "numeri": [
+            13,
+            22,
+            49,
+            58,
+            64,
+            75
+        ],
+        "jolly": 20,
+        "superstar": 16
+    },
+    {
+        "concorso": 177,
+        "anno": 2024,
+        "numeri": [
+            1,
+            50,
+            68,
+            75,
+            81,
+            84
+        ],
+        "jolly": 8,
+        "superstar": 25
+    },
+    {
+        "concorso": 176,
+        "anno": 2024,
+        "numeri": [
+            32,
+            43,
+            53,
+            75,
+            77,
+            88
+        ],
+        "jolly": 81,
+        "superstar": 79
+    },
+    {
+        "concorso": 175,
+        "anno": 2024,
+        "numeri": [
+            27,
+            32,
+            33,
+            44,
+            60,
+            89
+        ],
+        "jolly": 52,
+        "superstar": 5
+    },
+    {
+        "concorso": 174,
+        "anno": 2024,
+        "numeri": [
+            3,
+            19,
+            27,
+            43,
+            61,
+            77
+        ],
+        "jolly": 80,
+        "superstar": 41
+    },
+    {
+        "concorso": 173,
+        "anno": 2024,
+        "numeri": [
+            18,
+            40,
+            55,
+            58,
+            71,
+            85
+        ],
+        "jolly": 46,
+        "superstar": 46
+    },
+    {
+        "concorso": 172,
+        "anno": 2024,
+        "numeri": [
+            6,
+            17,
+            26,
+            35,
+            57,
+            64
+        ],
+        "jolly": 14,
+        "superstar": 23
+    },
+    {
+        "concorso": 171,
+        "anno": 2024,
+        "numeri": [
+            14,
+            31,
+            40,
+            42,
+            52,
+            65
+        ],
+        "jolly": 15,
+        "superstar": 69
+    },
+    {
+        "concorso": 170,
+        "anno": 2024,
+        "numeri": [
+            5,
+            11,
+            39,
+            41,
+            62,
+            80
+        ],
+        "jolly": 78,
+        "superstar": 33
+    },
+    {
+        "concorso": 169,
+        "anno": 2024,
+        "numeri": [
+            7,
+            21,
+            23,
+            28,
+            29,
+            31
+        ],
+        "jolly": 20,
+        "superstar": 66
+    },
+    {
+        "concorso": 168,
+        "anno": 2024,
+        "numeri": [
+            13,
+            23,
+            37,
+            43,
+            64,
+            79
+        ],
+        "jolly": 84,
+        "superstar": 20
+    },
+    {
+        "concorso": 167,
+        "anno": 2024,
+        "numeri": [
+            14,
+            67,
+            73,
+            86,
+            89,
+            90
+        ],
+        "jolly": 8,
+        "superstar": 77
+    },
+    {
+        "concorso": 166,
+        "anno": 2024,
+        "numeri": [
+            19,
+            39,
+            41,
+            42,
+            45,
+            88
+        ],
+        "jolly": 40,
+        "superstar": 27
+    },
+    {
+        "concorso": 165,
+        "anno": 2024,
+        "numeri": [
+            2,
+            23,
+            24,
+            42,
+            46,
+            88
+        ],
+        "jolly": 61,
+        "superstar": 27
+    },
+    {
+        "concorso": 164,
+        "anno": 2024,
+        "numeri": [
+            1,
+            23,
+            44,
+            45,
+            47,
+            60
+        ],
+        "jolly": 14,
+        "superstar": 19
+    },
+    {
+        "concorso": 163,
+        "anno": 2024,
+        "numeri": [
+            11,
+            13,
+            16,
+            22,
+            42,
+            51
+        ],
+        "jolly": 37,
+        "superstar": 47
+    },
+    {
+        "concorso": 162,
+        "anno": 2024,
+        "numeri": [
+            31,
+            34,
+            49,
+            66,
+            75,
+            88
+        ],
+        "jolly": 1,
+        "superstar": 16
+    },
+    {
+        "concorso": 161,
+        "anno": 2024,
+        "numeri": [
+            6,
+            48,
+            64,
+            80,
+            87,
+            89
+        ],
+        "jolly": 43,
+        "superstar": 82
+    },
+    {
+        "concorso": 160,
+        "anno": 2024,
+        "numeri": [
+            6,
+            21,
+            25,
+            59,
+            63,
+            68
+        ],
+        "jolly": 8,
+        "superstar": 70
+    },
+    {
+        "concorso": 159,
+        "anno": 2024,
+        "numeri": [
+            13,
+            41,
+            47,
+            58,
+            81,
+            84
+        ],
+        "jolly": 4,
+        "superstar": 81
+    },
+    {
+        "concorso": 158,
+        "anno": 2024,
+        "numeri": [
+            5,
+            43,
+            57,
+            58,
+            72,
+            87
+        ],
+        "jolly": 3,
+        "superstar": 72
+    },
+    {
+        "concorso": 157,
+        "anno": 2024,
+        "numeri": [
+            26,
+            27,
+            40,
+            51,
+            67,
+            86
+        ],
+        "jolly": 4,
+        "superstar": 82
+    },
+    {
+        "concorso": 156,
+        "anno": 2024,
+        "numeri": [
+            57,
+            60,
+            68,
+            70,
+            80,
+            83
+        ],
+        "jolly": 25,
+        "superstar": 64
+    },
+    {
+        "concorso": 155,
+        "anno": 2024,
+        "numeri": [
+            4,
+            8,
+            28,
+            33,
+            34,
+            57
+        ],
+        "jolly": 27,
+        "superstar": 88
+    },
+    {
+        "concorso": 154,
+        "anno": 2024,
+        "numeri": [
+            4,
+            14,
+            42,
+            46,
+            53,
+            60
+        ],
+        "jolly": 31,
+        "superstar": 85
+    },
+    {
+        "concorso": 153,
+        "anno": 2024,
+        "numeri": [
+            2,
+            13,
+            14,
+            41,
+            52,
+            79
+        ],
+        "jolly": 84,
+        "superstar": 12
+    },
+    {
+        "concorso": 152,
+        "anno": 2024,
+        "numeri": [
+            2,
+            25,
+            27,
+            50,
+            88,
+            90
+        ],
+        "jolly": 19,
+        "superstar": 86
+    },
+    {
+        "concorso": 151,
+        "anno": 2024,
+        "numeri": [
+            8,
+            33,
+            35,
+            39,
+            78,
+            83
+        ],
+        "jolly": 52,
+        "superstar": 72
+    },
+    {
+        "concorso": 150,
+        "anno": 2024,
+        "numeri": [
+            14,
+            22,
+            42,
+            44,
+            47,
+            79
+        ],
+        "jolly": 85,
+        "superstar": 29
+    },
+    {
+        "concorso": 149,
+        "anno": 2024,
+        "numeri": [
+            3,
+            13,
+            44,
+            45,
+            56,
+            61
+        ],
+        "jolly": 33,
+        "superstar": 34
+    },
+    {
+        "concorso": 148,
+        "anno": 2024,
+        "numeri": [
+            17,
+            28,
+            62,
+            64,
+            74,
+            84
+        ],
+        "jolly": 88,
+        "superstar": 90
+    },
+    {
+        "concorso": 147,
+        "anno": 2024,
+        "numeri": [
+            1,
+            31,
+            55,
+            65,
+            76,
+            88
+        ],
+        "jolly": 52,
+        "superstar": 34
+    },
+    {
+        "concorso": 146,
+        "anno": 2024,
+        "numeri": [
+            2,
+            12,
+            16,
+            18,
+            59,
+            61
+        ],
+        "jolly": 56,
+        "superstar": 4
+    },
+    {
+        "concorso": 145,
+        "anno": 2024,
+        "numeri": [
+            29,
+            35,
+            65,
+            67,
+            70,
+            80
+        ],
+        "jolly": 10,
+        "superstar": 79
+    },
+    {
+        "concorso": 144,
+        "anno": 2024,
+        "numeri": [
+            9,
+            11,
+            27,
+            53,
+            63,
+            78
+        ],
+        "jolly": 8,
+        "superstar": 88
+    },
+    {
+        "concorso": 143,
+        "anno": 2024,
+        "numeri": [
+            1,
+            16,
+            64,
+            70,
+            72,
+            82
+        ],
+        "jolly": 34,
+        "superstar": 86
+    },
+    {
+        "concorso": 142,
+        "anno": 2024,
+        "numeri": [
+            2,
+            26,
+            37,
+            38,
+            69,
+            85
+        ],
+        "jolly": 66,
+        "superstar": 10
+    },
+    {
+        "concorso": 141,
+        "anno": 2024,
+        "numeri": [
+            4,
+            5,
+            29,
+            32,
+            69,
+            89
+        ],
+        "jolly": 15,
+        "superstar": 46
+    },
+    {
+        "concorso": 140,
+        "anno": 2024,
+        "numeri": [
+            6,
+            38,
+            55,
+            71,
+            80,
+            85
+        ],
+        "jolly": 23,
+        "superstar": 24
+    },
+    {
+        "concorso": 139,
+        "anno": 2024,
+        "numeri": [
+            1,
+            20,
+            27,
+            41,
+            60,
+            77
+        ],
+        "jolly": 7,
+        "superstar": 43
+    },
+    {
+        "concorso": 138,
+        "anno": 2024,
+        "numeri": [
+            7,
+            34,
+            47,
+            52,
+            74,
+            86
+        ],
+        "jolly": 78,
+        "superstar": 7
+    },
+    {
+        "concorso": 137,
+        "anno": 2024,
+        "numeri": [
+            5,
+            23,
+            46,
+            52,
+            60,
+            80
+        ],
+        "jolly": 79,
+        "superstar": 54
+    },
+    {
+        "concorso": 136,
+        "anno": 2024,
+        "numeri": [
+            12,
+            23,
+            36,
+            42,
+            50,
+            71
+        ],
+        "jolly": 80,
+        "superstar": 40
+    },
+    {
+        "concorso": 135,
+        "anno": 2024,
+        "numeri": [
+            17,
+            28,
+            63,
+            72,
+            75,
+            81
+        ],
+        "jolly": 79,
+        "superstar": 51
+    },
+    {
+        "concorso": 134,
+        "anno": 2024,
+        "numeri": [
+            5,
+            7,
+            59,
+            70,
+            72,
+            73
+        ],
+        "jolly": 33,
+        "superstar": 4
+    },
+    {
+        "concorso": 133,
+        "anno": 2024,
+        "numeri": [
+            17,
+            18,
+            24,
+            34,
+            57,
+            82
+        ],
+        "jolly": 68,
+        "superstar": 21
+    },
+    {
+        "concorso": 132,
+        "anno": 2024,
+        "numeri": [
+            17,
+            23,
+            45,
+            57,
+            64,
+            89
+        ],
+        "jolly": 15,
+        "superstar": 31
+    },
+    {
+        "concorso": 131,
+        "anno": 2024,
+        "numeri": [
+            4,
+            7,
+            15,
+            24,
+            36,
+            78
+        ],
+        "jolly": 65,
+        "superstar": 85
+    },
+    {
+        "concorso": 130,
+        "anno": 2024,
+        "numeri": [
+            6,
+            22,
+            43,
+            60,
+            66,
+            73
+        ],
+        "jolly": 31,
+        "superstar": 31
+    },
+    {
+        "concorso": 129,
+        "anno": 2024,
+        "numeri": [
+            1,
+            6,
+            13,
+            20,
+            73,
+            85
+        ],
+        "jolly": 11,
+        "superstar": 73
+    },
+    {
+        "concorso": 128,
+        "anno": 2024,
+        "numeri": [
+            41,
+            43,
+            55,
+            65,
+            80,
+            85
+        ],
+        "jolly": 76,
+        "superstar": 74
+    },
+    {
+        "concorso": 127,
+        "anno": 2024,
+        "numeri": [
+            13,
+            14,
+            49,
+            55,
+            71,
+            77
+        ],
+        "jolly": 62,
+        "superstar": 32
+    },
+    {
+        "concorso": 126,
+        "anno": 2024,
+        "numeri": [
+            23,
+            40,
+            60,
+            79,
+            80,
+            87
+        ],
+        "jolly": 50,
+        "superstar": 69
+    },
+    {
+        "concorso": 125,
+        "anno": 2024,
+        "numeri": [
+            3,
+            16,
+            17,
+            54,
+            61,
+            90
+        ],
+        "jolly": 4,
+        "superstar": 21
+    },
+    {
+        "concorso": 124,
+        "anno": 2024,
+        "numeri": [
+            4,
+            11,
+            85,
+            86,
+            87,
+            88
+        ],
+        "jolly": 38,
+        "superstar": 2
+    },
+    {
+        "concorso": 123,
+        "anno": 2024,
+        "numeri": [
+            6,
+            37,
+            69,
+            73,
+            79,
+            88
+        ],
+        "jolly": 4,
+        "superstar": 7
+    },
+    {
+        "concorso": 122,
+        "anno": 2024,
+        "numeri": [
+            34,
+            42,
+            69,
+            76,
+            81,
+            85
+        ],
+        "jolly": 36,
+        "superstar": 49
+    },
+    {
+        "concorso": 121,
+        "anno": 2024,
+        "numeri": [
+            33,
+            39,
+            78,
+            79,
+            83,
+            84
+        ],
+        "jolly": 60,
+        "superstar": 88
+    },
+    {
+        "concorso": 120,
+        "anno": 2024,
+        "numeri": [
+            11,
+            13,
+            22,
+            34,
+            54,
+            77
+        ],
+        "jolly": 35,
+        "superstar": 72
+    },
+    {
+        "concorso": 119,
+        "anno": 2024,
+        "numeri": [
+            13,
+            14,
+            25,
+            34,
+            59,
+            84
+        ],
+        "jolly": 71,
+        "superstar": 17
+    },
+    {
+        "concorso": 118,
+        "anno": 2024,
+        "numeri": [
+            1,
+            14,
+            21,
+            35,
+            64,
+            85
+        ],
+        "jolly": 70,
+        "superstar": 5
+    },
+    {
+        "concorso": 117,
+        "anno": 2024,
+        "numeri": [
+            2,
+            21,
+            23,
+            56,
+            69,
+            87
+        ],
+        "jolly": 52,
+        "superstar": 42
+    },
+    {
+        "concorso": 116,
+        "anno": 2024,
+        "numeri": [
+            24,
+            59,
+            63,
+            64,
+            82,
+            90
+        ],
+        "jolly": 62,
+        "superstar": 24
+    },
+    {
+        "concorso": 115,
+        "anno": 2024,
+        "numeri": [
+            45,
+            48,
+            50,
+            57,
+            70,
+            71
+        ],
+        "jolly": 80,
+        "superstar": 52
+    },
+    {
+        "concorso": 114,
+        "anno": 2024,
+        "numeri": [
+            13,
+            20,
+            39,
+            48,
+            74,
+            89
+        ],
+        "jolly": 47,
+        "superstar": 50
+    },
+    {
+        "concorso": 113,
+        "anno": 2024,
+        "numeri": [
+            13,
+            23,
+            35,
+            36,
+            57,
+            64
+        ],
+        "jolly": 47,
+        "superstar": 5
+    },
+    {
+        "concorso": 112,
+        "anno": 2024,
+        "numeri": [
+            3,
+            18,
+            26,
+            54,
+            61,
+            72
+        ],
+        "jolly": 85,
+        "superstar": 30
+    },
+    {
+        "concorso": 111,
+        "anno": 2024,
+        "numeri": [
+            6,
+            9,
+            54,
+            63,
+            64,
+            68
+        ],
+        "jolly": 43,
+        "superstar": 84
+    },
+    {
+        "concorso": 110,
+        "anno": 2024,
+        "numeri": [
+            43,
+            54,
+            60,
+            70,
+            75,
+            89
+        ],
+        "jolly": 30,
+        "superstar": 20
+    },
+    {
+        "concorso": 109,
+        "anno": 2024,
+        "numeri": [
+            10,
+            31,
+            40,
+            59,
+            80,
+            85
+        ],
+        "jolly": 13,
+        "superstar": 48
+    },
+    {
+        "concorso": 108,
+        "anno": 2024,
+        "numeri": [
+            8,
+            26,
+            32,
+            34,
+            53,
+            58
+        ],
+        "jolly": 25,
+        "superstar": 78
+    },
+    {
+        "concorso": 107,
+        "anno": 2024,
+        "numeri": [
+            18,
+            24,
+            26,
+            33,
+            34,
+            47
+        ],
+        "jolly": 35,
+        "superstar": 30
+    },
+    {
+        "concorso": 106,
+        "anno": 2024,
+        "numeri": [
+            10,
+            21,
+            23,
+            26,
+            35,
+            50
+        ],
+        "jolly": 87,
+        "superstar": 76
+    },
+    {
+        "concorso": 105,
+        "anno": 2024,
+        "numeri": [
+            15,
+            25,
+            42,
+            53,
+            56,
+            73
+        ],
+        "jolly": 60,
+        "superstar": 61
+    },
+    {
+        "concorso": 104,
+        "anno": 2024,
+        "numeri": [
+            4,
+            7,
+            39,
+            71,
+            79,
+            89
+        ],
+        "jolly": 1,
+        "superstar": 11
+    },
+    {
+        "concorso": 103,
+        "anno": 2024,
+        "numeri": [
+            11,
+            18,
+            25,
+            26,
+            54,
+            84
+        ],
+        "jolly": 17,
+        "superstar": 69
+    },
+    {
+        "concorso": 102,
+        "anno": 2024,
+        "numeri": [
+            21,
+            26,
+            33,
+            34,
+            45,
+            86
+        ],
+        "jolly": 28,
+        "superstar": 80
+    },
+    {
+        "concorso": 101,
+        "anno": 2024,
+        "numeri": [
+            13,
+            28,
+            63,
+            76,
+            80,
+            85
+        ],
+        "jolly": 21,
+        "superstar": 54
+    },
+    {
+        "concorso": 100,
+        "anno": 2024,
+        "numeri": [
+            3,
+            18,
+            49,
+            63,
+            68,
+            82
+        ],
+        "jolly": 78,
+        "superstar": 51
+    },
+    {
+        "concorso": 99,
+        "anno": 2024,
+        "numeri": [
+            3,
+            25,
+            57,
+            69,
+            71,
+            87
+        ],
+        "jolly": 48,
+        "superstar": 62
+    },
+    {
+        "concorso": 98,
+        "anno": 2024,
+        "numeri": [
+            21,
+            23,
+            28,
+            59,
+            79,
+            82
+        ],
+        "jolly": 74,
+        "superstar": 81
+    },
+    {
+        "concorso": 97,
+        "anno": 2024,
+        "numeri": [
+            19,
+            31,
+            39,
+            60,
+            72,
+            80
+        ],
+        "jolly": 5,
+        "superstar": 49
+    },
+    {
+        "concorso": 96,
+        "anno": 2024,
+        "numeri": [
+            20,
+            32,
+            49,
+            50,
+            51,
+            58
+        ],
+        "jolly": 44,
+        "superstar": 59
+    },
+    {
+        "concorso": 95,
+        "anno": 2024,
+        "numeri": [
+            6,
+            16,
+            22,
+            69,
+            73,
+            78
+        ],
+        "jolly": 67,
+        "superstar": 38
+    },
+    {
+        "concorso": 94,
+        "anno": 2024,
+        "numeri": [
+            15,
+            60,
+            82,
+            85,
+            86,
+            87
+        ],
+        "jolly": 45,
+        "superstar": 42
+    },
+    {
+        "concorso": 93,
+        "anno": 2024,
+        "numeri": [
+            5,
+            22,
+            47,
+            54,
+            63,
+            84
+        ],
+        "jolly": 85,
+        "superstar": 82
+    },
+    {
+        "concorso": 92,
+        "anno": 2024,
+        "numeri": [
+            14,
+            27,
+            34,
+            47,
+            73,
+            88
+        ],
+        "jolly": 52,
+        "superstar": 52
+    },
+    {
+        "concorso": 91,
+        "anno": 2024,
+        "numeri": [
+            6,
+            8,
+            14,
+            15,
+            59,
+            79
+        ],
+        "jolly": 66,
+        "superstar": 2
+    },
+    {
+        "concorso": 90,
+        "anno": 2024,
+        "numeri": [
+            39,
+            51,
+            52,
+            58,
+            72,
+            84
+        ],
+        "jolly": 11,
+        "superstar": 37
+    },
+    {
+        "concorso": 89,
+        "anno": 2024,
+        "numeri": [
+            43,
+            44,
+            45,
+            50,
+            67,
+            76
+        ],
+        "jolly": 69,
+        "superstar": 9
+    },
+    {
+        "concorso": 88,
+        "anno": 2024,
+        "numeri": [
+            4,
+            18,
+            28,
+            41,
+            61,
+            75
+        ],
+        "jolly": 17,
+        "superstar": 72
+    },
+    {
+        "concorso": 87,
+        "anno": 2024,
+        "numeri": [
+            4,
+            13,
+            47,
+            75,
+            80,
+            82
+        ],
+        "jolly": 83,
+        "superstar": 22
+    },
+    {
+        "concorso": 86,
+        "anno": 2024,
+        "numeri": [
+            14,
+            20,
+            24,
+            49,
+            83,
+            84
+        ],
+        "jolly": 62,
+        "superstar": 45
+    },
+    {
+        "concorso": 85,
+        "anno": 2024,
+        "numeri": [
+            10,
+            14,
+            16,
+            40,
+            50,
+            55
+        ],
+        "jolly": 4,
+        "superstar": 31
+    },
+    {
+        "concorso": 84,
+        "anno": 2024,
+        "numeri": [
+            19,
+            41,
+            67,
+            76,
+            82,
+            85
+        ],
+        "jolly": 23,
+        "superstar": 10
+    },
+    {
+        "concorso": 83,
+        "anno": 2024,
+        "numeri": [
+            2,
+            10,
+            28,
+            37,
+            56,
+            75
+        ],
+        "jolly": 41,
+        "superstar": 58
+    },
+    {
+        "concorso": 82,
+        "anno": 2024,
+        "numeri": [
+            2,
+            36,
+            39,
+            50,
+            59,
+            64
+        ],
+        "jolly": 19,
+        "superstar": 3
+    },
+    {
+        "concorso": 81,
+        "anno": 2024,
+        "numeri": [
+            4,
+            10,
+            19,
+            50,
+            71,
+            83
+        ],
+        "jolly": 27,
+        "superstar": 11
+    },
+    {
+        "concorso": 80,
+        "anno": 2024,
+        "numeri": [
+            3,
+            28,
+            49,
+            72,
+            83,
+            84
+        ],
+        "jolly": 5,
+        "superstar": 17
+    },
+    {
+        "concorso": 79,
+        "anno": 2024,
+        "numeri": [
+            2,
+            20,
+            31,
+            48,
+            58,
+            59
+        ],
+        "jolly": 46,
+        "superstar": 30
+    },
+    {
+        "concorso": 78,
+        "anno": 2024,
+        "numeri": [
+            13,
+            14,
+            41,
+            53,
+            60,
+            65
+        ],
+        "jolly": 5,
+        "superstar": 45
+    },
+    {
+        "concorso": 77,
+        "anno": 2024,
+        "numeri": [
+            10,
+            11,
+            27,
+            31,
+            66,
+            83
+        ],
+        "jolly": 25,
+        "superstar": 57
+    },
+    {
+        "concorso": 76,
+        "anno": 2024,
+        "numeri": [
+            11,
+            27,
+            39,
+            43,
+            61,
+            85
+        ],
+        "jolly": 52,
+        "superstar": 43
+    },
+    {
+        "concorso": 75,
+        "anno": 2024,
+        "numeri": [
+            21,
+            29,
+            34,
+            36,
+            46,
+            51
+        ],
+        "jolly": 41,
+        "superstar": 60
+    },
+    {
+        "concorso": 74,
+        "anno": 2024,
+        "numeri": [
+            6,
+            20,
+            40,
+            55,
+            71,
+            80
+        ],
+        "jolly": 12,
+        "superstar": 75
+    },
+    {
+        "concorso": 73,
+        "anno": 2024,
+        "numeri": [
+            23,
+            36,
+            38,
+            62,
+            75,
+            81
+        ],
+        "jolly": 82,
+        "superstar": 62
+    },
+    {
+        "concorso": 72,
+        "anno": 2024,
+        "numeri": [
+            21,
+            23,
+            30,
+            45,
+            68,
+            85
+        ],
+        "jolly": 53,
+        "superstar": 89
+    },
+    {
+        "concorso": 71,
+        "anno": 2024,
+        "numeri": [
+            5,
+            18,
+            22,
+            34,
+            52,
+            66
+        ],
+        "jolly": 33,
+        "superstar": 46
+    },
+    {
+        "concorso": 70,
+        "anno": 2024,
+        "numeri": [
+            17,
+            23,
+            43,
+            48,
+            52,
+            66
+        ],
+        "jolly": 88,
+        "superstar": 3
+    },
+    {
+        "concorso": 69,
+        "anno": 2024,
+        "numeri": [
+            14,
+            43,
+            54,
+            69,
+            80,
+            90
+        ],
+        "jolly": 1,
+        "superstar": 57
+    },
+    {
+        "concorso": 68,
+        "anno": 2024,
+        "numeri": [
+            6,
+            7,
+            11,
+            20,
+            33,
+            81
+        ],
+        "jolly": 74,
+        "superstar": 8
+    },
+    {
+        "concorso": 67,
+        "anno": 2024,
+        "numeri": [
+            17,
+            27,
+            44,
+            50,
+            66,
+            85
+        ],
+        "jolly": 3,
+        "superstar": 32
+    },
+    {
+        "concorso": 66,
+        "anno": 2024,
+        "numeri": [
+            24,
+            27,
+            41,
+            54,
+            62,
+            63
+        ],
+        "jolly": 37,
+        "superstar": 37
+    },
+    {
+        "concorso": 65,
+        "anno": 2024,
+        "numeri": [
+            9,
+            13,
+            51,
+            61,
+            81,
+            83
+        ],
+        "jolly": 24,
+        "superstar": 59
+    },
+    {
+        "concorso": 64,
+        "anno": 2024,
+        "numeri": [
+            8,
+            12,
+            20,
+            24,
+            45,
+            73
+        ],
+        "jolly": 4,
+        "superstar": 3
+    },
+    {
+        "concorso": 63,
+        "anno": 2024,
+        "numeri": [
+            26,
+            34,
+            40,
+            53,
+            60,
+            68
+        ],
+        "jolly": 82,
+        "superstar": 19
+    },
+    {
+        "concorso": 62,
+        "anno": 2024,
+        "numeri": [
+            9,
+            18,
+            65,
+            70,
+            75,
+            87
+        ],
+        "jolly": 53,
+        "superstar": 81
+    },
+    {
+        "concorso": 61,
+        "anno": 2024,
+        "numeri": [
+            15,
+            27,
+            42,
+            53,
+            65,
+            85
+        ],
+        "jolly": 88,
+        "superstar": 49
+    },
+    {
+        "concorso": 60,
+        "anno": 2024,
+        "numeri": [
+            1,
+            3,
+            11,
+            53,
+            75,
+            81
+        ],
+        "jolly": 61,
+        "superstar": 26
+    },
+    {
+        "concorso": 59,
+        "anno": 2024,
+        "numeri": [
+            1,
+            6,
+            7,
+            11,
+            79,
+            88
+        ],
+        "jolly": 15,
+        "superstar": 26
+    },
+    {
+        "concorso": 58,
+        "anno": 2024,
+        "numeri": [
+            10,
+            23,
+            47,
+            49,
+            84,
+            85
+        ],
+        "jolly": 5,
+        "superstar": 24
+    },
+    {
+        "concorso": 57,
+        "anno": 2024,
+        "numeri": [
+            8,
+            31,
+            67,
+            77,
+            81,
+            86
+        ],
+        "jolly": 10,
+        "superstar": 62
+    },
+    {
+        "concorso": 56,
+        "anno": 2024,
+        "numeri": [
+            15,
+            23,
+            31,
+            45,
+            51,
+            58
+        ],
+        "jolly": 60,
+        "superstar": 64
+    },
+    {
+        "concorso": 55,
+        "anno": 2024,
+        "numeri": [
+            14,
+            33,
+            53,
+            54,
+            64,
+            78
+        ],
+        "jolly": 39,
+        "superstar": 85
+    },
+    {
+        "concorso": 54,
+        "anno": 2024,
+        "numeri": [
+            23,
+            40,
+            42,
+            60,
+            62,
+            63
+        ],
+        "jolly": 26,
+        "superstar": 80
+    },
+    {
+        "concorso": 53,
+        "anno": 2024,
+        "numeri": [
+            8,
+            33,
+            36,
+            41,
+            51,
+            68
+        ],
+        "jolly": 71,
+        "superstar": 8
+    },
+    {
+        "concorso": 52,
+        "anno": 2024,
+        "numeri": [
+            28,
+            39,
+            40,
+            44,
+            72,
+            76
+        ],
+        "jolly": 52,
+        "superstar": 52
+    },
+    {
+        "concorso": 51,
+        "anno": 2024,
+        "numeri": [
+            8,
+            25,
+            28,
+            45,
+            54,
+            66
+        ],
+        "jolly": 89,
+        "superstar": 28
+    },
+    {
+        "concorso": 50,
+        "anno": 2024,
+        "numeri": [
+            20,
+            30,
+            32,
+            38,
+            61,
+            67
+        ],
+        "jolly": 60,
+        "superstar": 6
+    },
+    {
+        "concorso": 49,
+        "anno": 2024,
+        "numeri": [
+            5,
+            9,
+            22,
+            69,
+            74,
+            84
+        ],
+        "jolly": 80,
+        "superstar": 83
+    },
+    {
+        "concorso": 48,
+        "anno": 2024,
+        "numeri": [
+            2,
+            24,
+            43,
+            74,
+            81,
+            85
+        ],
+        "jolly": 63,
+        "superstar": 40
+    },
+    {
+        "concorso": 47,
+        "anno": 2024,
+        "numeri": [
+            32,
+            34,
+            57,
+            58,
+            67,
+            79
+        ],
+        "jolly": 61,
+        "superstar": 66
+    },
+    {
+        "concorso": 46,
+        "anno": 2024,
+        "numeri": [
+            13,
+            16,
+            59,
+            66,
+            77,
+            79
+        ],
+        "jolly": 82,
+        "superstar": 75
+    },
+    {
+        "concorso": 45,
+        "anno": 2024,
+        "numeri": [
+            2,
+            8,
+            17,
+            73,
+            77,
+            84
+        ],
+        "jolly": 4,
+        "superstar": 84
+    },
+    {
+        "concorso": 44,
+        "anno": 2024,
+        "numeri": [
+            4,
+            19,
+            58,
+            60,
+            67,
+            82
+        ],
+        "jolly": 48,
+        "superstar": 29
+    },
+    {
+        "concorso": 43,
+        "anno": 2024,
+        "numeri": [
+            12,
+            38,
+            45,
+            66,
+            70,
+            73
+        ],
+        "jolly": 58,
+        "superstar": 85
+    },
+    {
+        "concorso": 42,
+        "anno": 2024,
+        "numeri": [
+            5,
+            6,
+            7,
+            50,
+            72,
+            74
+        ],
+        "jolly": 82,
+        "superstar": 26
+    },
+    {
+        "concorso": 41,
+        "anno": 2024,
+        "numeri": [
+            14,
+            23,
+            51,
+            55,
+            68,
+            76
+        ],
+        "jolly": 77,
+        "superstar": 86
+    },
+    {
+        "concorso": 40,
+        "anno": 2024,
+        "numeri": [
+            7,
+            25,
+            46,
+            67,
+            69,
+            86
+        ],
+        "jolly": 23,
+        "superstar": 77
+    },
+    {
+        "concorso": 39,
+        "anno": 2024,
+        "numeri": [
+            10,
+            30,
+            36,
+            49,
+            55,
+            62
+        ],
+        "jolly": 32,
+        "superstar": 66
+    },
+    {
+        "concorso": 38,
+        "anno": 2024,
+        "numeri": [
+            9,
+            16,
+            23,
+            50,
+            53,
+            79
+        ],
+        "jolly": 55,
+        "superstar": 84
+    },
+    {
+        "concorso": 37,
+        "anno": 2024,
+        "numeri": [
+            3,
+            13,
+            24,
+            60,
+            70,
+            75
+        ],
+        "jolly": 71,
+        "superstar": 30
+    },
+    {
+        "concorso": 36,
+        "anno": 2024,
+        "numeri": [
+            16,
+            43,
+            53,
+            79,
+            80,
+            82
+        ],
+        "jolly": 74,
+        "superstar": 61
+    },
+    {
+        "concorso": 35,
+        "anno": 2024,
+        "numeri": [
+            26,
+            50,
+            51,
+            55,
+            85,
+            87
+        ],
+        "jolly": 14,
+        "superstar": 19
+    },
+    {
+        "concorso": 34,
+        "anno": 2024,
+        "numeri": [
+            5,
+            16,
+            44,
+            61,
+            80,
+            90
+        ],
+        "jolly": 25,
+        "superstar": 16
+    },
+    {
+        "concorso": 33,
+        "anno": 2024,
+        "numeri": [
+            13,
+            28,
+            36,
+            41,
+            79,
+            88
+        ],
+        "jolly": 30,
+        "superstar": 32
+    },
+    {
+        "concorso": 32,
+        "anno": 2024,
+        "numeri": [
+            27,
+            33,
+            41,
+            73,
+            79,
+            90
+        ],
+        "jolly": 34,
+        "superstar": 39
+    },
+    {
+        "concorso": 31,
+        "anno": 2024,
+        "numeri": [
+            41,
+            43,
+            46,
+            47,
+            63,
+            87
+        ],
+        "jolly": 30,
+        "superstar": 44
+    },
+    {
+        "concorso": 30,
+        "anno": 2024,
+        "numeri": [
+            38,
+            54,
+            57,
+            66,
+            74,
+            88
+        ],
+        "jolly": 75,
+        "superstar": 57
+    },
+    {
+        "concorso": 29,
+        "anno": 2024,
+        "numeri": [
+            29,
+            30,
+            43,
+            44,
+            75,
+            87
+        ],
+        "jolly": 1,
+        "superstar": 85
+    },
+    {
+        "concorso": 28,
+        "anno": 2024,
+        "numeri": [
+            5,
+            30,
+            36,
+            43,
+            48,
+            78
+        ],
+        "jolly": 79,
+        "superstar": 51
+    },
+    {
+        "concorso": 27,
+        "anno": 2024,
+        "numeri": [
+            3,
+            11,
+            25,
+            34,
+            46,
+            64
+        ],
+        "jolly": 53,
+        "superstar": 75
+    },
+    {
+        "concorso": 26,
+        "anno": 2024,
+        "numeri": [
+            20,
+            30,
+            37,
+            83,
+            88,
+            89
+        ],
+        "jolly": 77,
+        "superstar": 66
+    },
+    {
+        "concorso": 25,
+        "anno": 2024,
+        "numeri": [
+            34,
+            38,
+            61,
+            71,
+            74,
+            83
+        ],
+        "jolly": 80,
+        "superstar": 79
+    },
+    {
+        "concorso": 24,
+        "anno": 2024,
+        "numeri": [
+            27,
+            34,
+            37,
+            42,
+            53,
+            76
+        ],
+        "jolly": 60,
+        "superstar": 55
+    },
+    {
+        "concorso": 23,
+        "anno": 2024,
+        "numeri": [
+            43,
+            62,
+            72,
+            73,
+            85,
+            86
+        ],
+        "jolly": 58,
+        "superstar": 17
+    },
+    {
+        "concorso": 22,
+        "anno": 2024,
+        "numeri": [
+            6,
+            22,
+            29,
+            42,
+            48,
+            66
+        ],
+        "jolly": 56,
+        "superstar": 81
+    },
+    {
+        "concorso": 21,
+        "anno": 2024,
+        "numeri": [
+            2,
+            4,
+            24,
+            62,
+            73,
+            75
+        ],
+        "jolly": 1,
+        "superstar": 49
+    },
+    {
+        "concorso": 20,
+        "anno": 2024,
+        "numeri": [
+            26,
+            34,
+            39,
+            46,
+            54,
+            89
+        ],
+        "jolly": 13,
+        "superstar": 11
+    },
+    {
+        "concorso": 19,
+        "anno": 2024,
+        "numeri": [
+            6,
+            10,
+            12,
+            34,
+            66,
+            77
+        ],
+        "jolly": 19,
+        "superstar": 58
+    },
+    {
+        "concorso": 18,
+        "anno": 2024,
+        "numeri": [
+            2,
+            35,
+            38,
+            44,
+            68,
+            83
+        ],
+        "jolly": 50,
+        "superstar": 73
+    },
+    {
+        "concorso": 17,
+        "anno": 2024,
+        "numeri": [
+            3,
+            44,
+            74,
+            81,
+            87,
+            89
+        ],
+        "jolly": 85,
+        "superstar": 66
+    },
+    {
+        "concorso": 16,
+        "anno": 2024,
+        "numeri": [
+            5,
+            10,
+            76,
+            82,
+            83,
+            89
+        ],
+        "jolly": 25,
+        "superstar": 49
+    },
+    {
+        "concorso": 15,
+        "anno": 2024,
+        "numeri": [
+            17,
+            33,
+            38,
+            43,
+            49,
+            80
+        ],
+        "jolly": 69,
+        "superstar": 30
+    },
+    {
+        "concorso": 14,
+        "anno": 2024,
+        "numeri": [
+            24,
+            32,
+            36,
+            47,
+            50,
+            78
+        ],
+        "jolly": 62,
+        "superstar": 72
+    },
+    {
+        "concorso": 13,
+        "anno": 2024,
+        "numeri": [
+            27,
+            29,
+            30,
+            53,
+            54,
+            86
+        ],
+        "jolly": 34,
+        "superstar": 57
+    },
+    {
+        "concorso": 12,
+        "anno": 2024,
+        "numeri": [
+            11,
+            15,
+            16,
+            42,
+            48,
+            52
+        ],
+        "jolly": 1,
+        "superstar": 16
+    },
+    {
+        "concorso": 11,
+        "anno": 2024,
+        "numeri": [
+            2,
+            19,
+            56,
+            58,
+            63,
+            71
+        ],
+        "jolly": 22,
+        "superstar": 14
+    },
+    {
+        "concorso": 10,
+        "anno": 2024,
+        "numeri": [
+            21,
+            22,
+            28,
+            50,
+            55,
+            68
+        ],
+        "jolly": 38,
+        "superstar": 35
+    },
+    {
+        "concorso": 9,
+        "anno": 2024,
+        "numeri": [
+            14,
+            26,
+            36,
+            60,
+            62,
+            84
+        ],
+        "jolly": 73,
+        "superstar": 68
+    },
+    {
+        "concorso": 8,
+        "anno": 2024,
+        "numeri": [
+            21,
+            39,
+            51,
+            59,
+            68,
+            86
+        ],
+        "jolly": 63,
+        "superstar": 48
+    },
+    {
+        "concorso": 7,
+        "anno": 2024,
+        "numeri": [
+            4,
+            43,
+            45,
+            55,
+            56,
+            60
+        ],
+        "jolly": 5,
+        "superstar": 55
+    },
+    {
+        "concorso": 6,
+        "anno": 2024,
+        "numeri": [
+            11,
+            23,
+            25,
+            72,
+            78,
+            84
+        ],
+        "jolly": 20,
+        "superstar": 40
+    },
+    {
+        "concorso": 5,
+        "anno": 2024,
+        "numeri": [
+            45,
+            56,
+            59,
+            69,
+            73,
+            77
+        ],
+        "jolly": 7,
+        "superstar": 81
+    },
+    {
+        "concorso": 4,
+        "anno": 2024,
+        "numeri": [
+            10,
+            19,
+            23,
+            39,
+            40,
+            83
+        ],
+        "jolly": 73,
+        "superstar": 13
+    },
+    {
+        "concorso": 3,
+        "anno": 2024,
+        "numeri": [
+            20,
+            28,
+            42,
+            48,
+            51,
+            62
+        ],
+        "jolly": 72,
+        "superstar": 47
+    },
+    {
+        "concorso": 2,
+        "anno": 2024,
+        "numeri": [
+            7,
+            9,
+            29,
+            51,
+            60,
+            70
+        ],
+        "jolly": 59,
+        "superstar": 41
+    },
+    {
+        "concorso": 1,
+        "anno": 2024,
+        "numeri": [
+            2,
+            9,
+            16,
+            35,
+            46,
+            63
+        ],
+        "jolly": 49,
+        "superstar": 5
+    },
+    {
+        "concorso": 208,
+        "anno": 2025,
+        "numeri": [
+            6,
+            9,
+            17,
+            20,
+            60,
+            67
+        ],
+        "jolly": 1,
+        "superstar": 73
+    },
+    {
+        "concorso": 207,
+        "anno": 2025,
+        "numeri": [
+            36,
+            38,
+            45,
+            61,
+            79,
+            83
+        ],
+        "jolly": 12,
+        "superstar": 52
+    },
+    {
+        "concorso": 206,
+        "anno": 2025,
+        "numeri": [
+            8,
+            19,
+            20,
+            41,
+            74,
+            84
+        ],
+        "jolly": 45,
+        "superstar": 74
+    },
+    {
+        "concorso": 205,
+        "anno": 2025,
+        "numeri": [
+            16,
+            18,
+            22,
+            24,
+            34,
+            80
+        ],
+        "jolly": 62,
+        "superstar": 53
+    },
+    {
+        "concorso": 204,
+        "anno": 2025,
+        "numeri": [
+            2,
+            14,
+            28,
+            36,
+            78,
+            85
+        ],
+        "jolly": 17,
+        "superstar": 11
+    },
+    {
+        "concorso": 203,
+        "anno": 2025,
+        "numeri": [
+            11,
+            24,
+            42,
+            50,
+            89,
+            90
+        ],
+        "jolly": 36,
+        "superstar": 44
+    },
+    {
+        "concorso": 202,
+        "anno": 2025,
+        "numeri": [
+            16,
+            52,
+            60,
+            75,
+            81,
+            88
+        ],
+        "jolly": 40,
+        "superstar": 49
+    },
+    {
+        "concorso": 201,
+        "anno": 2025,
+        "numeri": [
+            7,
+            28,
+            63,
+            69,
+            73,
+            77
+        ],
+        "jolly": 64,
+        "superstar": 14
+    },
+    {
+        "concorso": 200,
+        "anno": 2025,
+        "numeri": [
+            2,
+            18,
+            24,
+            35,
+            41,
+            84
+        ],
+        "jolly": 44,
+        "superstar": 20
+    },
+    {
+        "concorso": 199,
+        "anno": 2025,
+        "numeri": [
+            2,
+            5,
+            7,
+            36,
+            58,
+            64
+        ],
+        "jolly": 14,
+        "superstar": 62
+    },
+    {
+        "concorso": 198,
+        "anno": 2025,
+        "numeri": [
+            7,
+            21,
+            35,
+            38,
+            64,
+            80
+        ],
+        "jolly": 29,
+        "superstar": 87
+    },
+    {
+        "concorso": 197,
+        "anno": 2025,
+        "numeri": [
+            14,
+            44,
+            72,
+            81,
+            85,
+            86
+        ],
+        "jolly": 80,
+        "superstar": 47
+    },
+    {
+        "concorso": 196,
+        "anno": 2025,
+        "numeri": [
+            8,
+            31,
+            51,
+            65,
+            78,
+            79
+        ],
+        "jolly": 26,
+        "superstar": 77
+    },
+    {
+        "concorso": 195,
+        "anno": 2025,
+        "numeri": [
+            1,
+            38,
+            42,
+            78,
+            82,
+            84
+        ],
+        "jolly": 24,
+        "superstar": 71
+    },
+    {
+        "concorso": 194,
+        "anno": 2025,
+        "numeri": [
+            10,
+            19,
+            29,
+            30,
+            56,
+            71
+        ],
+        "jolly": 76,
+        "superstar": 13
+    },
+    {
+        "concorso": 193,
+        "anno": 2025,
+        "numeri": [
+            12,
+            30,
+            45,
+            48,
+            59,
+            60
+        ],
+        "jolly": 40,
+        "superstar": 90
+    },
+    {
+        "concorso": 192,
+        "anno": 2025,
+        "numeri": [
+            5,
+            17,
+            28,
+            59,
+            70,
+            90
+        ],
+        "jolly": 27,
+        "superstar": 66
+    },
+    {
+        "concorso": 191,
+        "anno": 2025,
+        "numeri": [
+            8,
+            16,
+            29,
+            61,
+            65,
+            69
+        ],
+        "jolly": 17,
+        "superstar": 85
+    },
+    {
+        "concorso": 190,
+        "anno": 2025,
+        "numeri": [
+            1,
+            12,
+            20,
+            21,
+            42,
+            58
+        ],
+        "jolly": 84,
+        "superstar": 34
+    },
+    {
+        "concorso": 189,
+        "anno": 2025,
+        "numeri": [
+            9,
+            28,
+            43,
+            50,
+            61,
+            88
+        ],
+        "jolly": 83,
+        "superstar": 62
+    },
+    {
+        "concorso": 188,
+        "anno": 2025,
+        "numeri": [
+            18,
+            20,
+            21,
+            23,
+            40,
+            43
+        ],
+        "jolly": 52,
+        "superstar": 10
+    },
+    {
+        "concorso": 187,
+        "anno": 2025,
+        "numeri": [
+            2,
+            8,
+            29,
+            47,
+            59,
+            65
+        ],
+        "jolly": 86,
+        "superstar": 26
+    },
+    {
+        "concorso": 186,
+        "anno": 2025,
+        "numeri": [
+            12,
+            14,
+            18,
+            53,
+            84,
+            86
+        ],
+        "jolly": 72,
+        "superstar": 35
+    },
+    {
+        "concorso": 185,
+        "anno": 2025,
+        "numeri": [
+            5,
+            9,
+            15,
+            17,
+            48,
+            74
+        ],
+        "jolly": 65,
+        "superstar": 75
+    },
+    {
+        "concorso": 184,
+        "anno": 2025,
+        "numeri": [
+            18,
+            40,
+            54,
+            83,
+            85,
+            89
+        ],
+        "jolly": 4,
+        "superstar": 57
+    },
+    {
+        "concorso": 183,
+        "anno": 2025,
+        "numeri": [
+            20,
+            23,
+            40,
+            51,
+            55,
+            85
+        ],
+        "jolly": 5,
+        "superstar": 80
+    },
+    {
+        "concorso": 182,
+        "anno": 2025,
+        "numeri": [
+            26,
+            38,
+            43,
+            46,
+            72,
+            73
+        ],
+        "jolly": 45,
+        "superstar": 45
+    },
+    {
+        "concorso": 181,
+        "anno": 2025,
+        "numeri": [
+            7,
+            9,
+            17,
+            54,
+            73,
+            90
+        ],
+        "jolly": 89,
+        "superstar": 3
+    },
+    {
+        "concorso": 180,
+        "anno": 2025,
+        "numeri": [
+            3,
+            37,
+            42,
+            59,
+            63,
+            84
+        ],
+        "jolly": 49,
+        "superstar": 64
+    },
+    {
+        "concorso": 179,
+        "anno": 2025,
+        "numeri": [
+            17,
+            18,
+            19,
+            33,
+            35,
+            62
+        ],
+        "jolly": 80,
+        "superstar": 58
+    },
+    {
+        "concorso": 178,
+        "anno": 2025,
+        "numeri": [
+            5,
+            24,
+            32,
+            67,
+            82,
+            88
+        ],
+        "jolly": 43,
+        "superstar": 89
+    },
+    {
+        "concorso": 177,
+        "anno": 2025,
+        "numeri": [
+            9,
+            48,
+            51,
+            53,
+            73,
+            88
+        ],
+        "jolly": 19,
+        "superstar": 43
+    },
+    {
+        "concorso": 176,
+        "anno": 2025,
+        "numeri": [
+            5,
+            18,
+            28,
+            38,
+            44,
+            76
+        ],
+        "jolly": 23,
+        "superstar": 89
+    },
+    {
+        "concorso": 175,
+        "anno": 2025,
+        "numeri": [
+            30,
+            56,
+            80,
+            81,
+            85,
+            87
+        ],
+        "jolly": 67,
+        "superstar": 2
+    },
+    {
+        "concorso": 174,
+        "anno": 2025,
+        "numeri": [
+            8,
+            30,
+            32,
+            61,
+            67,
+            85
+        ],
+        "jolly": 22,
+        "superstar": 9
+    },
+    {
+        "concorso": 173,
+        "anno": 2025,
+        "numeri": [
+            15,
+            30,
+            37,
+            39,
+            56,
+            74
+        ],
+        "jolly": 43,
+        "superstar": 47
+    },
+    {
+        "concorso": 172,
+        "anno": 2025,
+        "numeri": [
+            8,
+            25,
+            40,
+            54,
+            58,
+            63
+        ],
+        "jolly": 50,
+        "superstar": 63
+    },
+    {
+        "concorso": 171,
+        "anno": 2025,
+        "numeri": [
+            16,
+            18,
+            33,
+            53,
+            58,
+            89
+        ],
+        "jolly": 81,
+        "superstar": 59
+    },
+    {
+        "concorso": 170,
+        "anno": 2025,
+        "numeri": [
+            5,
+            12,
+            23,
+            31,
+            84,
+            90
+        ],
+        "jolly": 68,
+        "superstar": 77
+    },
+    {
+        "concorso": 169,
+        "anno": 2025,
+        "numeri": [
+            7,
+            29,
+            42,
+            62,
+            68,
+            73
+        ],
+        "jolly": 26,
+        "superstar": 21
+    },
+    {
+        "concorso": 168,
+        "anno": 2025,
+        "numeri": [
+            4,
+            9,
+            14,
+            33,
+            36,
+            77
+        ],
+        "jolly": 66,
+        "superstar": 15
+    },
+    {
+        "concorso": 167,
+        "anno": 2025,
+        "numeri": [
+            12,
+            13,
+            19,
+            26,
+            75,
+            82
+        ],
+        "jolly": 50,
+        "superstar": 54
+    },
+    {
+        "concorso": 166,
+        "anno": 2025,
+        "numeri": [
+            2,
+            9,
+            10,
+            32,
+            66,
+            77
+        ],
+        "jolly": 72,
+        "superstar": 44
+    },
+    {
+        "concorso": 165,
+        "anno": 2025,
+        "numeri": [
+            7,
+            44,
+            45,
+            58,
+            76,
+            80
+        ],
+        "jolly": 77,
+        "superstar": 13
+    },
+    {
+        "concorso": 164,
+        "anno": 2025,
+        "numeri": [
+            9,
+            31,
+            44,
+            59,
+            70,
+            86
+        ],
+        "jolly": 37,
+        "superstar": 81
+    },
+    {
+        "concorso": 163,
+        "anno": 2025,
+        "numeri": [
+            28,
+            51,
+            55,
+            62,
+            80,
+            90
+        ],
+        "jolly": 68,
+        "superstar": 90
+    },
+    {
+        "concorso": 162,
+        "anno": 2025,
+        "numeri": [
+            20,
+            38,
+            42,
+            61,
+            81,
+            82
+        ],
+        "jolly": 16,
+        "superstar": 80
+    },
+    {
+        "concorso": 161,
+        "anno": 2025,
+        "numeri": [
+            38,
+            49,
+            50,
+            54,
+            78,
+            82
+        ],
+        "jolly": 90,
+        "superstar": 43
+    },
+    {
+        "concorso": 160,
+        "anno": 2025,
+        "numeri": [
+            17,
+            21,
+            40,
+            56,
+            61,
+            79
+        ],
+        "jolly": 87,
+        "superstar": 85
+    },
+    {
+        "concorso": 159,
+        "anno": 2025,
+        "numeri": [
+            48,
+            54,
+            61,
+            68,
+            79,
+            87
+        ],
+        "jolly": 80,
+        "superstar": 45
+    },
+    {
+        "concorso": 158,
+        "anno": 2025,
+        "numeri": [
+            2,
+            4,
+            69,
+            75,
+            79,
+            88
+        ],
+        "jolly": 12,
+        "superstar": 7
+    },
+    {
+        "concorso": 157,
+        "anno": 2025,
+        "numeri": [
+            1,
+            21,
+            39,
+            42,
+            52,
+            89
+        ],
+        "jolly": 6,
+        "superstar": 17
+    },
+    {
+        "concorso": 156,
+        "anno": 2025,
+        "numeri": [
+            5,
+            8,
+            71,
+            74,
+            77,
+            81
+        ],
+        "jolly": 34,
+        "superstar": 70
+    },
+    {
+        "concorso": 155,
+        "anno": 2025,
+        "numeri": [
+            9,
+            10,
+            21,
+            25,
+            27,
+            68
+        ],
+        "jolly": 54,
+        "superstar": 6
+    },
+    {
+        "concorso": 154,
+        "anno": 2025,
+        "numeri": [
+            2,
+            17,
+            23,
+            39,
+            58,
+            82
+        ],
+        "jolly": 75,
+        "superstar": 6
+    },
+    {
+        "concorso": 153,
+        "anno": 2025,
+        "numeri": [
+            11,
+            19,
+            36,
+            41,
+            65,
+            82
+        ],
+        "jolly": 17,
+        "superstar": 15
+    },
+    {
+        "concorso": 152,
+        "anno": 2025,
+        "numeri": [
+            1,
+            6,
+            20,
+            43,
+            59,
+            73
+        ],
+        "jolly": 58,
+        "superstar": 89
+    },
+    {
+        "concorso": 151,
+        "anno": 2025,
+        "numeri": [
+            2,
+            12,
+            15,
+            31,
+            63,
+            71
+        ],
+        "jolly": 50,
+        "superstar": 57
+    },
+    {
+        "concorso": 150,
+        "anno": 2025,
+        "numeri": [
+            11,
+            16,
+            23,
+            31,
+            49,
+            78
+        ],
+        "jolly": 63,
+        "superstar": 13
+    },
+    {
+        "concorso": 149,
+        "anno": 2025,
+        "numeri": [
+            12,
+            38,
+            46,
+            49,
+            60,
+            65
+        ],
+        "jolly": 2,
+        "superstar": 46
+    },
+    {
+        "concorso": 148,
+        "anno": 2025,
+        "numeri": [
+            1,
+            12,
+            26,
+            44,
+            51,
+            90
+        ],
+        "jolly": 72,
+        "superstar": 45
+    },
+    {
+        "concorso": 147,
+        "anno": 2025,
+        "numeri": [
+            26,
+            28,
+            31,
+            35,
+            37,
+            65
+        ],
+        "jolly": 30,
+        "superstar": 5
+    },
+    {
+        "concorso": 146,
+        "anno": 2025,
+        "numeri": [
+            29,
+            33,
+            44,
+            52,
+            63,
+            65
+        ],
+        "jolly": 19,
+        "superstar": 84
+    },
+    {
+        "concorso": 145,
+        "anno": 2025,
+        "numeri": [
+            3,
+            9,
+            11,
+            35,
+            65,
+            74
+        ],
+        "jolly": 26,
+        "superstar": 29
+    },
+    {
+        "concorso": 144,
+        "anno": 2025,
+        "numeri": [
+            34,
+            47,
+            71,
+            73,
+            82,
+            90
+        ],
+        "jolly": 49,
+        "superstar": 52
+    },
+    {
+        "concorso": 143,
+        "anno": 2025,
+        "numeri": [
+            59,
+            73,
+            75,
+            76,
+            78,
+            88
+        ],
+        "jolly": 57,
+        "superstar": 5
+    },
+    {
+        "concorso": 142,
+        "anno": 2025,
+        "numeri": [
+            9,
+            39,
+            47,
+            52,
+            71,
+            82
+        ],
+        "jolly": 83,
+        "superstar": 52
+    },
+    {
+        "concorso": 141,
+        "anno": 2025,
+        "numeri": [
+            5,
+            16,
+            38,
+            45,
+            63,
+            83
+        ],
+        "jolly": 46,
+        "superstar": 83
+    },
+    {
+        "concorso": 140,
+        "anno": 2025,
+        "numeri": [
+            16,
+            19,
+            28,
+            44,
+            60,
+            78
+        ],
+        "jolly": 9,
+        "superstar": 73
+    },
+    {
+        "concorso": 139,
+        "anno": 2025,
+        "numeri": [
+            30,
+            43,
+            46,
+            62,
+            73,
+            90
+        ],
+        "jolly": 35,
+        "superstar": 73
+    },
+    {
+        "concorso": 138,
+        "anno": 2025,
+        "numeri": [
+            18,
+            22,
+            32,
+            34,
+            52,
+            56
+        ],
+        "jolly": 62,
+        "superstar": 45
+    },
+    {
+        "concorso": 137,
+        "anno": 2025,
+        "numeri": [
+            56,
+            59,
+            64,
+            67,
+            72,
+            78
+        ],
+        "jolly": 51,
+        "superstar": 86
+    },
+    {
+        "concorso": 136,
+        "anno": 2025,
+        "numeri": [
+            12,
+            23,
+            25,
+            34,
+            41,
+            63
+        ],
+        "jolly": 21,
+        "superstar": 20
+    },
+    {
+        "concorso": 135,
+        "anno": 2025,
+        "numeri": [
+            5,
+            29,
+            40,
+            47,
+            52,
+            80
+        ],
+        "jolly": 4,
+        "superstar": 61
+    },
+    {
+        "concorso": 134,
+        "anno": 2025,
+        "numeri": [
+            7,
+            25,
+            38,
+            39,
+            66,
+            69
+        ],
+        "jolly": 17,
+        "superstar": 24
+    },
+    {
+        "concorso": 133,
+        "anno": 2025,
+        "numeri": [
+            49,
+            56,
+            57,
+            61,
+            62,
+            86
+        ],
+        "jolly": 16,
+        "superstar": 53
+    },
+    {
+        "concorso": 132,
+        "anno": 2025,
+        "numeri": [
+            5,
+            10,
+            51,
+            62,
+            77,
+            81
+        ],
+        "jolly": 74,
+        "superstar": 58
+    },
+    {
+        "concorso": 131,
+        "anno": 2025,
+        "numeri": [
+            5,
+            19,
+            58,
+            59,
+            83,
+            87
+        ],
+        "jolly": 10,
+        "superstar": 32
+    },
+    {
+        "concorso": 130,
+        "anno": 2025,
+        "numeri": [
+            6,
+            15,
+            25,
+            31,
+            72,
+            79
+        ],
+        "jolly": 54,
+        "superstar": 31
+    },
+    {
+        "concorso": 129,
+        "anno": 2025,
+        "numeri": [
+            3,
+            19,
+            30,
+            47,
+            49,
+            75
+        ],
+        "jolly": 35,
+        "superstar": 14
+    },
+    {
+        "concorso": 128,
+        "anno": 2025,
+        "numeri": [
+            7,
+            11,
+            26,
+            59,
+            82,
+            83
+        ],
+        "jolly": 24,
+        "superstar": 54
+    },
+    {
+        "concorso": 127,
+        "anno": 2025,
+        "numeri": [
+            6,
+            18,
+            40,
+            41,
+            45,
+            88
+        ],
+        "jolly": 37,
+        "superstar": 12
+    },
+    {
+        "concorso": 126,
+        "anno": 2025,
+        "numeri": [
+            8,
+            34,
+            38,
+            53,
+            78,
+            79
+        ],
+        "jolly": 58,
+        "superstar": 37
+    },
+    {
+        "concorso": 125,
+        "anno": 2025,
+        "numeri": [
+            43,
+            55,
+            70,
+            79,
+            83,
+            85
+        ],
+        "jolly": 24,
+        "superstar": 4
+    },
+    {
+        "concorso": 124,
+        "anno": 2025,
+        "numeri": [
+            6,
+            31,
+            57,
+            60,
+            65,
+            80
+        ],
+        "jolly": 12,
+        "superstar": 71
+    },
+    {
+        "concorso": 123,
+        "anno": 2025,
+        "numeri": [
+            42,
+            54,
+            66,
+            78,
+            80,
+            88
+        ],
+        "jolly": 60,
+        "superstar": 14
+    },
+    {
+        "concorso": 122,
+        "anno": 2025,
+        "numeri": [
+            9,
+            25,
+            27,
+            36,
+            54,
+            86
+        ],
+        "jolly": 45,
+        "superstar": 31
+    },
+    {
+        "concorso": 121,
+        "anno": 2025,
+        "numeri": [
+            14,
+            55,
+            56,
+            57,
+            58,
+            66
+        ],
+        "jolly": 46,
+        "superstar": 65
+    },
+    {
+        "concorso": 120,
+        "anno": 2025,
+        "numeri": [
+            13,
+            27,
+            31,
+            60,
+            65,
+            75
+        ],
+        "jolly": 39,
+        "superstar": 69
+    },
+    {
+        "concorso": 119,
+        "anno": 2025,
+        "numeri": [
+            1,
+            9,
+            19,
+            49,
+            53,
+            88
+        ],
+        "jolly": 77,
+        "superstar": 44
+    },
+    {
+        "concorso": 118,
+        "anno": 2025,
+        "numeri": [
+            15,
+            16,
+            17,
+            36,
+            62,
+            83
+        ],
+        "jolly": 7,
+        "superstar": 31
+    },
+    {
+        "concorso": 117,
+        "anno": 2025,
+        "numeri": [
+            10,
+            14,
+            37,
+            66,
+            88,
+            89
+        ],
+        "jolly": 34,
+        "superstar": 88
+    },
+    {
+        "concorso": 116,
+        "anno": 2025,
+        "numeri": [
+            3,
+            8,
+            44,
+            52,
+            69,
+            85
+        ],
+        "jolly": 11,
+        "superstar": 67
+    },
+    {
+        "concorso": 115,
+        "anno": 2025,
+        "numeri": [
+            5,
+            43,
+            46,
+            56,
+            58,
+            90
+        ],
+        "jolly": 23,
+        "superstar": 54
+    },
+    {
+        "concorso": 114,
+        "anno": 2025,
+        "numeri": [
+            20,
+            37,
+            50,
+            70,
+            75,
+            88
+        ],
+        "jolly": 46,
+        "superstar": 16
+    },
+    {
+        "concorso": 113,
+        "anno": 2025,
+        "numeri": [
+            16,
+            35,
+            37,
+            42,
+            43,
+            68
+        ],
+        "jolly": 58,
+        "superstar": 8
+    },
+    {
+        "concorso": 112,
+        "anno": 2025,
+        "numeri": [
+            4,
+            10,
+            14,
+            48,
+            58,
+            83
+        ],
+        "jolly": 47,
+        "superstar": 63
+    },
+    {
+        "concorso": 111,
+        "anno": 2025,
+        "numeri": [
+            16,
+            24,
+            25,
+            43,
+            64,
+            78
+        ],
+        "jolly": 54,
+        "superstar": 12
+    },
+    {
+        "concorso": 110,
+        "anno": 2025,
+        "numeri": [
+            1,
+            31,
+            40,
+            62,
+            64,
+            74
+        ],
+        "jolly": 81,
+        "superstar": 11
+    },
+    {
+        "concorso": 109,
+        "anno": 2025,
+        "numeri": [
+            5,
+            15,
+            20,
+            32,
+            65,
+            75
+        ],
+        "jolly": 12,
+        "superstar": 24
+    },
+    {
+        "concorso": 108,
+        "anno": 2025,
+        "numeri": [
+            1,
+            33,
+            40,
+            61,
+            64,
+            73
+        ],
+        "jolly": 15,
+        "superstar": 48
+    },
+    {
+        "concorso": 107,
+        "anno": 2025,
+        "numeri": [
+            16,
+            46,
+            61,
+            71,
+            75,
+            85
+        ],
+        "jolly": 64,
+        "superstar": 12
+    },
+    {
+        "concorso": 106,
+        "anno": 2025,
+        "numeri": [
+            26,
+            45,
+            58,
+            65,
+            70,
+            82
+        ],
+        "jolly": 27,
+        "superstar": 73
+    },
+    {
+        "concorso": 105,
+        "anno": 2025,
+        "numeri": [
+            37,
+            42,
+            49,
+            53,
+            57,
+            65
+        ],
+        "jolly": 62,
+        "superstar": 8
+    },
+    {
+        "concorso": 104,
+        "anno": 2025,
+        "numeri": [
+            6,
+            9,
+            25,
+            28,
+            75,
+            79
+        ],
+        "jolly": 83,
+        "superstar": 20
+    },
+    {
+        "concorso": 103,
+        "anno": 2025,
+        "numeri": [
+            10,
+            35,
+            38,
+            41,
+            51,
+            56
+        ],
+        "jolly": 3,
+        "superstar": 51
+    },
+    {
+        "concorso": 102,
+        "anno": 2025,
+        "numeri": [
+            25,
+            49,
+            54,
+            55,
+            62,
+            73
+        ],
+        "jolly": 4,
+        "superstar": 86
+    },
+    {
+        "concorso": 101,
+        "anno": 2025,
+        "numeri": [
+            10,
+            56,
+            69,
+            70,
+            79,
+            81
+        ],
+        "jolly": 53,
+        "superstar": 45
+    },
+    {
+        "concorso": 100,
+        "anno": 2025,
+        "numeri": [
+            2,
+            23,
+            32,
+            36,
+            63,
+            64
+        ],
+        "jolly": 37,
+        "superstar": 76
+    },
+    {
+        "concorso": 99,
+        "anno": 2025,
+        "numeri": [
+            4,
+            17,
+            28,
+            36,
+            42,
+            50
+        ],
+        "jolly": 5,
+        "superstar": 71
+    },
+    {
+        "concorso": 98,
+        "anno": 2025,
+        "numeri": [
+            34,
+            67,
+            76,
+            77,
+            86,
+            90
+        ],
+        "jolly": 40,
+        "superstar": 43
+    },
+    {
+        "concorso": 97,
+        "anno": 2025,
+        "numeri": [
+            4,
+            6,
+            11,
+            31,
+            69,
+            73
+        ],
+        "jolly": 9,
+        "superstar": 26
+    },
+    {
+        "concorso": 96,
+        "anno": 2025,
+        "numeri": [
+            17,
+            48,
+            52,
+            58,
+            86,
+            87
+        ],
+        "jolly": 74,
+        "superstar": 49
+    },
+    {
+        "concorso": 95,
+        "anno": 2025,
+        "numeri": [
+            10,
+            18,
+            44,
+            56,
+            73,
+            86
+        ],
+        "jolly": 48,
+        "superstar": 55
+    },
+    {
+        "concorso": 94,
+        "anno": 2025,
+        "numeri": [
+            8,
+            23,
+            25,
+            48,
+            78,
+            83
+        ],
+        "jolly": 80,
+        "superstar": 39
+    },
+    {
+        "concorso": 93,
+        "anno": 2025,
+        "numeri": [
+            21,
+            61,
+            69,
+            76,
+            79,
+            81
+        ],
+        "jolly": 77,
+        "superstar": 76
+    },
+    {
+        "concorso": 92,
+        "anno": 2025,
+        "numeri": [
+            14,
+            45,
+            55,
+            62,
+            76,
+            80
+        ],
+        "jolly": 51,
+        "superstar": 17
+    },
+    {
+        "concorso": 91,
+        "anno": 2025,
+        "numeri": [
+            5,
+            28,
+            46,
+            49,
+            52,
+            76
+        ],
+        "jolly": 83,
+        "superstar": 21
+    },
+    {
+        "concorso": 90,
+        "anno": 2025,
+        "numeri": [
+            2,
+            10,
+            33,
+            55,
+            73,
+            74
+        ],
+        "jolly": 80,
+        "superstar": 49
+    },
+    {
+        "concorso": 89,
+        "anno": 2025,
+        "numeri": [
+            10,
+            17,
+            19,
+            21,
+            63,
+            74
+        ],
+        "jolly": 4,
+        "superstar": 60
+    },
+    {
+        "concorso": 88,
+        "anno": 2025,
+        "numeri": [
+            1,
+            6,
+            31,
+            37,
+            47,
+            71
+        ],
+        "jolly": 26,
+        "superstar": 72
+    },
+    {
+        "concorso": 87,
+        "anno": 2025,
+        "numeri": [
+            4,
+            8,
+            47,
+            48,
+            63,
+            90
+        ],
+        "jolly": 77,
+        "superstar": 12
+    },
+    {
+        "concorso": 86,
+        "anno": 2025,
+        "numeri": [
+            31,
+            34,
+            62,
+            63,
+            82,
+            87
+        ],
+        "jolly": 81,
+        "superstar": 77
+    },
+    {
+        "concorso": 85,
+        "anno": 2025,
+        "numeri": [
+            27,
+            32,
+            51,
+            67,
+            71,
+            81
+        ],
+        "jolly": 35,
+        "superstar": 90
+    },
+    {
+        "concorso": 84,
+        "anno": 2025,
+        "numeri": [
+            7,
+            10,
+            35,
+            40,
+            53,
+            75
+        ],
+        "jolly": 60,
+        "superstar": 33
+    },
+    {
+        "concorso": 83,
+        "anno": 2025,
+        "numeri": [
+            1,
+            3,
+            5,
+            53,
+            62,
+            71
+        ],
+        "jolly": 32,
+        "superstar": 53
+    },
+    {
+        "concorso": 82,
+        "anno": 2025,
+        "numeri": [
+            2,
+            8,
+            10,
+            18,
+            20,
+            79
+        ],
+        "jolly": 13,
+        "superstar": 10
+    },
+    {
+        "concorso": 81,
+        "anno": 2025,
+        "numeri": [
+            2,
+            19,
+            23,
+            46,
+            49,
+            72
+        ],
+        "jolly": 71,
+        "superstar": 88
+    },
+    {
+        "concorso": 80,
+        "anno": 2025,
+        "numeri": [
+            5,
+            19,
+            21,
+            30,
+            33,
+            48
+        ],
+        "jolly": 74,
+        "superstar": 39
+    },
+    {
+        "concorso": 79,
+        "anno": 2025,
+        "numeri": [
+            10,
+            11,
+            19,
+            22,
+            39,
+            88
+        ],
+        "jolly": 29,
+        "superstar": 73
+    },
+    {
+        "concorso": 78,
+        "anno": 2025,
+        "numeri": [
+            15,
+            21,
+            30,
+            31,
+            42,
+            80
+        ],
+        "jolly": 69,
+        "superstar": 42
+    },
+    {
+        "concorso": 77,
+        "anno": 2025,
+        "numeri": [
+            10,
+            28,
+            35,
+            37,
+            73,
+            75
+        ],
+        "jolly": 42,
+        "superstar": 27
+    },
+    {
+        "concorso": 76,
+        "anno": 2025,
+        "numeri": [
+            2,
+            15,
+            25,
+            62,
+            76,
+            81
+        ],
+        "jolly": 89,
+        "superstar": 5
+    },
+    {
+        "concorso": 75,
+        "anno": 2025,
+        "numeri": [
+            8,
+            14,
+            17,
+            39,
+            49,
+            55
+        ],
+        "jolly": 2,
+        "superstar": 80
+    },
+    {
+        "concorso": 74,
+        "anno": 2025,
+        "numeri": [
+            3,
+            47,
+            51,
+            77,
+            85,
+            88
+        ],
+        "jolly": 52,
+        "superstar": 39
+    },
+    {
+        "concorso": 73,
+        "anno": 2025,
+        "numeri": [
+            1,
+            23,
+            27,
+            54,
+            67,
+            83
+        ],
+        "jolly": 65,
+        "superstar": 30
+    },
+    {
+        "concorso": 72,
+        "anno": 2025,
+        "numeri": [
+            2,
+            35,
+            51,
+            58,
+            63,
+            88
+        ],
+        "jolly": 8,
+        "superstar": 51
+    },
+    {
+        "concorso": 71,
+        "anno": 2025,
+        "numeri": [
+            6,
+            18,
+            37,
+            63,
+            72,
+            73
+        ],
+        "jolly": 36,
+        "superstar": 28
+    },
+    {
+        "concorso": 70,
+        "anno": 2025,
+        "numeri": [
+            1,
+            4,
+            22,
+            44,
+            70,
+            72
+        ],
+        "jolly": 18,
+        "superstar": 53
+    },
+    {
+        "concorso": 69,
+        "anno": 2025,
+        "numeri": [
+            54,
+            55,
+            67,
+            76,
+            80,
+            85
+        ],
+        "jolly": 82,
+        "superstar": 52
+    },
+    {
+        "concorso": 68,
+        "anno": 2025,
+        "numeri": [
+            20,
+            31,
+            39,
+            59,
+            60,
+            82
+        ],
+        "jolly": 57,
+        "superstar": 10
+    },
+    {
+        "concorso": 67,
+        "anno": 2025,
+        "numeri": [
+            13,
+            18,
+            30,
+            44,
+            51,
+            81
+        ],
+        "jolly": 38,
+        "superstar": 52
+    },
+    {
+        "concorso": 66,
+        "anno": 2025,
+        "numeri": [
+            10,
+            21,
+            24,
+            48,
+            63,
+            67
+        ],
+        "jolly": 34,
+        "superstar": 45
+    },
+    {
+        "concorso": 65,
+        "anno": 2025,
+        "numeri": [
+            13,
+            14,
+            20,
+            31,
+            55,
+            60
+        ],
+        "jolly": 89,
+        "superstar": 25
+    },
+    {
+        "concorso": 64,
+        "anno": 2025,
+        "numeri": [
+            10,
+            59,
+            61,
+            62,
+            68,
+            74
+        ],
+        "jolly": 43,
+        "superstar": 31
+    },
+    {
+        "concorso": 63,
+        "anno": 2025,
+        "numeri": [
+            8,
+            32,
+            51,
+            54,
+            62,
+            69
+        ],
+        "jolly": 18,
+        "superstar": 30
+    },
+    {
+        "concorso": 62,
+        "anno": 2025,
+        "numeri": [
+            4,
+            11,
+            18,
+            23,
+            83,
+            88
+        ],
+        "jolly": 89,
+        "superstar": 70
+    },
+    {
+        "concorso": 61,
+        "anno": 2025,
+        "numeri": [
+            8,
+            20,
+            40,
+            44,
+            46,
+            49
+        ],
+        "jolly": 63,
+        "superstar": 48
+    },
+    {
+        "concorso": 60,
+        "anno": 2025,
+        "numeri": [
+            40,
+            57,
+            60,
+            66,
+            80,
+            81
+        ],
+        "jolly": 36,
+        "superstar": 9
+    },
+    {
+        "concorso": 59,
+        "anno": 2025,
+        "numeri": [
+            16,
+            38,
+            60,
+            79,
+            83,
+            85
+        ],
+        "jolly": 27,
+        "superstar": 36
+    },
+    {
+        "concorso": 58,
+        "anno": 2025,
+        "numeri": [
+            9,
+            20,
+            43,
+            49,
+            52,
+            57
+        ],
+        "jolly": 61,
+        "superstar": 8
+    },
+    {
+        "concorso": 57,
+        "anno": 2025,
+        "numeri": [
+            11,
+            24,
+            32,
+            40,
+            44,
+            85
+        ],
+        "jolly": 27,
+        "superstar": 36
+    },
+    {
+        "concorso": 56,
+        "anno": 2025,
+        "numeri": [
+            11,
+            20,
+            34,
+            46,
+            48,
+            90
+        ],
+        "jolly": 68,
+        "superstar": 81
+    },
+    {
+        "concorso": 55,
+        "anno": 2025,
+        "numeri": [
+            5,
+            8,
+            22,
+            41,
+            60,
+            73
+        ],
+        "jolly": 18,
+        "superstar": 54
+    },
+    {
+        "concorso": 54,
+        "anno": 2025,
+        "numeri": [
+            42,
+            51,
+            71,
+            77,
+            80,
+            82
+        ],
+        "jolly": 72,
+        "superstar": 5
+    },
+    {
+        "concorso": 53,
+        "anno": 2025,
+        "numeri": [
+            29,
+            30,
+            31,
+            32,
+            35,
+            57
+        ],
+        "jolly": 26,
+        "superstar": 6
+    },
+    {
+        "concorso": 52,
+        "anno": 2025,
+        "numeri": [
+            4,
+            19,
+            32,
+            47,
+            74,
+            81
+        ],
+        "jolly": 10,
+        "superstar": 90
+    },
+    {
+        "concorso": 51,
+        "anno": 2025,
+        "numeri": [
+            9,
+            45,
+            66,
+            68,
+            71,
+            85
+        ],
+        "jolly": 31,
+        "superstar": 44
+    },
+    {
+        "concorso": 50,
+        "anno": 2025,
+        "numeri": [
+            17,
+            26,
+            46,
+            56,
+            71,
+            90
+        ],
+        "jolly": 6,
+        "superstar": 22
+    },
+    {
+        "concorso": 49,
+        "anno": 2025,
+        "numeri": [
+            28,
+            35,
+            43,
+            45,
+            64,
+            85
+        ],
+        "jolly": 13,
+        "superstar": 35
+    },
+    {
+        "concorso": 48,
+        "anno": 2025,
+        "numeri": [
+            27,
+            29,
+            31,
+            60,
+            74,
+            88
+        ],
+        "jolly": 71,
+        "superstar": 23
+    },
+    {
+        "concorso": 47,
+        "anno": 2025,
+        "numeri": [
+            15,
+            28,
+            45,
+            46,
+            66,
+            76
+        ],
+        "jolly": 44,
+        "superstar": 43
+    },
+    {
+        "concorso": 46,
+        "anno": 2025,
+        "numeri": [
+            7,
+            15,
+            48,
+            49,
+            65,
+            80
+        ],
+        "jolly": 67,
+        "superstar": 39
+    },
+    {
+        "concorso": 45,
+        "anno": 2025,
+        "numeri": [
+            36,
+            40,
+            49,
+            54,
+            66,
+            83
+        ],
+        "jolly": 14,
+        "superstar": 44
+    },
+    {
+        "concorso": 44,
+        "anno": 2025,
+        "numeri": [
+            1,
+            64,
+            73,
+            79,
+            80,
+            86
+        ],
+        "jolly": 39,
+        "superstar": 68
+    },
+    {
+        "concorso": 43,
+        "anno": 2025,
+        "numeri": [
+            2,
+            8,
+            50,
+            77,
+            79,
+            82
+        ],
+        "jolly": 85,
+        "superstar": 36
+    },
+    {
+        "concorso": 42,
+        "anno": 2025,
+        "numeri": [
+            3,
+            10,
+            20,
+            36,
+            37,
+            49
+        ],
+        "jolly": 21,
+        "superstar": 14
+    },
+    {
+        "concorso": 41,
+        "anno": 2025,
+        "numeri": [
+            7,
+            25,
+            33,
+            51,
+            58,
+            70
+        ],
+        "jolly": 79,
+        "superstar": 31
+    },
+    {
+        "concorso": 40,
+        "anno": 2025,
+        "numeri": [
+            22,
+            27,
+            48,
+            55,
+            58,
+            90
+        ],
+        "jolly": 63,
+        "superstar": 11
+    },
+    {
+        "concorso": 39,
+        "anno": 2025,
+        "numeri": [
+            11,
+            16,
+            35,
+            59,
+            65,
+            87
+        ],
+        "jolly": 9,
+        "superstar": 52
+    },
+    {
+        "concorso": 38,
+        "anno": 2025,
+        "numeri": [
+            11,
+            24,
+            25,
+            30,
+            43,
+            47
+        ],
+        "jolly": 28,
+        "superstar": 5
+    },
+    {
+        "concorso": 37,
+        "anno": 2025,
+        "numeri": [
+            1,
+            10,
+            18,
+            19,
+            32,
+            36
+        ],
+        "jolly": 20,
+        "superstar": 53
+    },
+    {
+        "concorso": 36,
+        "anno": 2025,
+        "numeri": [
+            9,
+            28,
+            52,
+            63,
+            77,
+            79
+        ],
+        "jolly": 11,
+        "superstar": 39
+    },
+    {
+        "concorso": 35,
+        "anno": 2025,
+        "numeri": [
+            1,
+            12,
+            33,
+            40,
+            41,
+            83
+        ],
+        "jolly": 6,
+        "superstar": 67
+    },
+    {
+        "concorso": 34,
+        "anno": 2025,
+        "numeri": [
+            4,
+            12,
+            37,
+            59,
+            63,
+            90
+        ],
+        "jolly": 70,
+        "superstar": 15
+    },
+    {
+        "concorso": 33,
+        "anno": 2025,
+        "numeri": [
+            29,
+            31,
+            33,
+            42,
+            51,
+            72
+        ],
+        "jolly": 34,
+        "superstar": 62
+    },
+    {
+        "concorso": 32,
+        "anno": 2025,
+        "numeri": [
+            6,
+            58,
+            68,
+            83,
+            89,
+            90
+        ],
+        "jolly": 73,
+        "superstar": 50
+    },
+    {
+        "concorso": 31,
+        "anno": 2025,
+        "numeri": [
+            35,
+            40,
+            48,
+            49,
+            52,
+            89
+        ],
+        "jolly": 24,
+        "superstar": 32
+    },
+    {
+        "concorso": 30,
+        "anno": 2025,
+        "numeri": [
+            21,
+            45,
+            48,
+            72,
+            79,
+            87
+        ],
+        "jolly": 73,
+        "superstar": 89
+    },
+    {
+        "concorso": 29,
+        "anno": 2025,
+        "numeri": [
+            6,
+            19,
+            27,
+            63,
+            71,
+            77
+        ],
+        "jolly": 13,
+        "superstar": 70
+    },
+    {
+        "concorso": 28,
+        "anno": 2025,
+        "numeri": [
+            3,
+            5,
+            7,
+            54,
+            76,
+            85
+        ],
+        "jolly": 89,
+        "superstar": 64
+    },
+    {
+        "concorso": 27,
+        "anno": 2025,
+        "numeri": [
+            22,
+            37,
+            48,
+            72,
+            77,
+            85
+        ],
+        "jolly": 39,
+        "superstar": 72
+    },
+    {
+        "concorso": 26,
+        "anno": 2025,
+        "numeri": [
+            18,
+            30,
+            40,
+            52,
+            60,
+            71
+        ],
+        "jolly": 65,
+        "superstar": 70
+    },
+    {
+        "concorso": 25,
+        "anno": 2025,
+        "numeri": [
+            31,
+            41,
+            62,
+            64,
+            74,
+            87
+        ],
+        "jolly": 84,
+        "superstar": 68
+    },
+    {
+        "concorso": 24,
+        "anno": 2025,
+        "numeri": [
+            9,
+            39,
+            55,
+            75,
+            79,
+            86
+        ],
+        "jolly": 2,
+        "superstar": 56
+    },
+    {
+        "concorso": 23,
+        "anno": 2025,
+        "numeri": [
+            29,
+            46,
+            57,
+            66,
+            72,
+            86
+        ],
+        "jolly": 64,
+        "superstar": 40
+    },
+    {
+        "concorso": 22,
+        "anno": 2025,
+        "numeri": [
+            16,
+            29,
+            30,
+            47,
+            52,
+            84
+        ],
+        "jolly": 10,
+        "superstar": 17
+    },
+    {
+        "concorso": 21,
+        "anno": 2025,
+        "numeri": [
+            4,
+            11,
+            41,
+            72,
+            83,
+            86
+        ],
+        "jolly": 30,
+        "superstar": 30
+    },
+    {
+        "concorso": 20,
+        "anno": 2025,
+        "numeri": [
+            10,
+            29,
+            41,
+            77,
+            83,
+            85
+        ],
+        "jolly": 56,
+        "superstar": 80
+    },
+    {
+        "concorso": 19,
+        "anno": 2025,
+        "numeri": [
+            21,
+            25,
+            26,
+            45,
+            49,
+            59
+        ],
+        "jolly": 68,
+        "superstar": 82
+    },
+    {
+        "concorso": 18,
+        "anno": 2025,
+        "numeri": [
+            7,
+            18,
+            22,
+            25,
+            30,
+            72
+        ],
+        "jolly": 76,
+        "superstar": 51
+    },
+    {
+        "concorso": 17,
+        "anno": 2025,
+        "numeri": [
+            23,
+            32,
+            34,
+            35,
+            41,
+            47
+        ],
+        "jolly": 65,
+        "superstar": 2
+    },
+    {
+        "concorso": 16,
+        "anno": 2025,
+        "numeri": [
+            48,
+            63,
+            65,
+            72,
+            77,
+            82
+        ],
+        "jolly": 85,
+        "superstar": 47
+    },
+    {
+        "concorso": 15,
+        "anno": 2025,
+        "numeri": [
+            5,
+            6,
+            24,
+            44,
+            45,
+            76
+        ],
+        "jolly": 58,
+        "superstar": 64
+    },
+    {
+        "concorso": 14,
+        "anno": 2025,
+        "numeri": [
+            14,
+            20,
+            46,
+            62,
+            84,
+            85
+        ],
+        "jolly": 1,
+        "superstar": 78
+    },
+    {
+        "concorso": 13,
+        "anno": 2025,
+        "numeri": [
+            1,
+            7,
+            34,
+            46,
+            69,
+            80
+        ],
+        "jolly": 64,
+        "superstar": 42
+    },
+    {
+        "concorso": 12,
+        "anno": 2025,
+        "numeri": [
+            3,
+            18,
+            41,
+            58,
+            62,
+            73
+        ],
+        "jolly": 64,
+        "superstar": 20
+    },
+    {
+        "concorso": 11,
+        "anno": 2025,
+        "numeri": [
+            2,
+            10,
+            21,
+            29,
+            46,
+            70
+        ],
+        "jolly": 31,
+        "superstar": 59
+    },
+    {
+        "concorso": 10,
+        "anno": 2025,
+        "numeri": [
+            8,
+            12,
+            15,
+            40,
+            66,
+            89
+        ],
+        "jolly": 7,
+        "superstar": 15
+    },
+    {
+        "concorso": 9,
+        "anno": 2025,
+        "numeri": [
+            31,
+            38,
+            59,
+            69,
+            72,
+            88
+        ],
+        "jolly": 64,
+        "superstar": 73
+    },
+    {
+        "concorso": 8,
+        "anno": 2025,
+        "numeri": [
+            4,
+            15,
+            17,
+            40,
+            64,
+            75
+        ],
+        "jolly": 23,
+        "superstar": 80
+    },
+    {
+        "concorso": 7,
+        "anno": 2025,
+        "numeri": [
+            5,
+            6,
+            11,
+            22,
+            35,
+            85
+        ],
+        "jolly": 30,
+        "superstar": 53
+    },
+    {
+        "concorso": 6,
+        "anno": 2025,
+        "numeri": [
+            19,
+            25,
+            33,
+            49,
+            57,
+            72
+        ],
+        "jolly": 46,
+        "superstar": 38
+    },
+    {
+        "concorso": 5,
+        "anno": 2025,
+        "numeri": [
+            15,
+            33,
+            40,
+            71,
+            74,
+            82
+        ],
+        "jolly": 89,
+        "superstar": 15
+    },
+    {
+        "concorso": 4,
+        "anno": 2025,
+        "numeri": [
+            7,
+            10,
+            11,
+            29,
+            32,
+            87
+        ],
+        "jolly": 34,
+        "superstar": 51
+    },
+    {
+        "concorso": 3,
+        "anno": 2025,
+        "numeri": [
+            31,
+            42,
+            43,
+            63,
+            83,
+            86
+        ],
+        "jolly": 37,
+        "superstar": 86
+    },
+    {
+        "concorso": 2,
+        "anno": 2025,
+        "numeri": [
+            13,
+            30,
+            43,
+            49,
+            74,
+            89
+        ],
+        "jolly": 4,
+        "superstar": 32
+    },
+    {
+        "concorso": 1,
+        "anno": 2025,
+        "numeri": [
+            19,
+            21,
+            29,
+            74,
+            77,
+            88
+        ],
+        "jolly": 7,
+        "superstar": 56
+    },
+    {
+        "concorso": 83,
+        "anno": 2026,
+        "numeri": [
+            14,
+            29,
+            34,
+            57,
+            59,
+            69
+        ],
+        "jolly": 20,
+        "superstar": 16
+    },
+    {
+        "concorso": 82,
+        "anno": 2026,
+        "numeri": [
+            5,
+            17,
+            65,
+            71,
+            83,
+            87
+        ],
+        "jolly": 50,
+        "superstar": 86
+    },
+    {
+        "concorso": 81,
+        "anno": 2026,
+        "numeri": [
+            1,
+            38,
+            57,
+            58,
+            64,
+            81
+        ],
+        "jolly": 28,
+        "superstar": 50
+    },
+    {
+        "concorso": 80,
+        "anno": 2026,
+        "numeri": [
+            49,
+            57,
+            61,
+            73,
+            79,
+            86
+        ],
+        "jolly": 8,
+        "superstar": 36
+    },
+    {
+        "concorso": 79,
+        "anno": 2026,
+        "numeri": [
+            7,
+            12,
+            60,
+            69,
+            89,
+            90
+        ],
+        "jolly": 59,
+        "superstar": 36
+    },
+    {
+        "concorso": 78,
+        "anno": 2026,
+        "numeri": [
+            5,
+            13,
+            17,
+            28,
+            47,
+            68
+        ],
+        "jolly": 42,
+        "superstar": 19
+    },
+    {
+        "concorso": 77,
+        "anno": 2026,
+        "numeri": [
+            31,
+            56,
+            72,
+            74,
+            84,
+            85
+        ],
+        "jolly": 18,
+        "superstar": 34
+    },
+    {
+        "concorso": 76,
+        "anno": 2026,
+        "numeri": [
+            2,
+            28,
+            31,
+            57,
+            58,
+            59
+        ],
+        "jolly": 5,
+        "superstar": 2
+    },
+    {
+        "concorso": 75,
+        "anno": 2026,
+        "numeri": [
+            9,
+            27,
+            30,
+            42,
+            43,
+            62
+        ],
+        "jolly": 11,
+        "superstar": 11
+    },
+    {
+        "concorso": 74,
+        "anno": 2026,
+        "numeri": [
+            8,
+            16,
+            41,
+            47,
+            51,
+            90
+        ],
+        "jolly": 82,
+        "superstar": 69
+    },
+    {
+        "concorso": 73,
+        "anno": 2026,
+        "numeri": [
+            1,
+            34,
+            48,
+            66,
+            69,
+            73
+        ],
+        "jolly": 75,
+        "superstar": 58
+    },
+    {
+        "concorso": 72,
+        "anno": 2026,
+        "numeri": [
+            24,
+            34,
+            45,
+            55,
+            81,
+            87
+        ],
+        "jolly": 23,
+        "superstar": 52
+    },
+    {
+        "concorso": 71,
+        "anno": 2026,
+        "numeri": [
+            3,
+            14,
+            31,
+            46,
+            61,
+            63
+        ],
+        "jolly": 75,
+        "superstar": 24
+    },
+    {
+        "concorso": 70,
+        "anno": 2026,
+        "numeri": [
+            7,
+            58,
+            60,
+            79,
+            84,
+            86
+        ],
+        "jolly": 2,
+        "superstar": 19
+    },
+    {
+        "concorso": 69,
+        "anno": 2026,
+        "numeri": [
+            6,
+            7,
+            15,
+            44,
+            52,
+            58
+        ],
+        "jolly": 40,
+        "superstar": 16
+    },
+    {
+        "concorso": 68,
+        "anno": 2026,
+        "numeri": [
+            29,
+            42,
+            43,
+            47,
+            57,
+            60
+        ],
+        "jolly": 27,
+        "superstar": 30
+    },
+    {
+        "concorso": 67,
+        "anno": 2026,
+        "numeri": [
+            40,
+            57,
+            62,
+            64,
+            85,
+            87
+        ],
+        "jolly": 23,
+        "superstar": 56
+    },
+    {
+        "concorso": 66,
+        "anno": 2026,
+        "numeri": [
+            6,
+            13,
+            33,
+            37,
+            68,
+            82
+        ],
+        "jolly": 56,
+        "superstar": 20
+    },
+    {
+        "concorso": 65,
+        "anno": 2026,
+        "numeri": [
+            18,
+            24,
+            28,
+            35,
+            56,
+            58
+        ],
+        "jolly": 72,
+        "superstar": 57
+    },
+    {
+        "concorso": 64,
+        "anno": 2026,
+        "numeri": [
+            18,
+            19,
+            40,
+            43,
+            56,
+            77
+        ],
+        "jolly": 6,
+        "superstar": 65
+    },
+    {
+        "concorso": 63,
+        "anno": 2026,
+        "numeri": [
+            11,
+            22,
+            28,
+            33,
+            68,
+            77
+        ],
+        "jolly": 9,
+        "superstar": 70
+    },
+    {
+        "concorso": 62,
+        "anno": 2026,
+        "numeri": [
+            13,
+            27,
+            45,
+            53,
+            57,
+            84
+        ],
+        "jolly": 34,
+        "superstar": 63
+    },
+    {
+        "concorso": 61,
+        "anno": 2026,
+        "numeri": [
+            9,
+            11,
+            12,
+            38,
+            44,
+            54
+        ],
+        "jolly": 60,
+        "superstar": 39
+    },
+    {
+        "concorso": 60,
+        "anno": 2026,
+        "numeri": [
+            3,
+            5,
+            20,
+            27,
+            35,
+            66
+        ],
+        "jolly": 17,
+        "superstar": 6
+    },
+    {
+        "concorso": 59,
+        "anno": 2026,
+        "numeri": [
+            19,
+            28,
+            38,
+            48,
+            77,
+            85
+        ],
+        "jolly": 59,
+        "superstar": 57
+    },
+    {
+        "concorso": 58,
+        "anno": 2026,
+        "numeri": [
+            3,
+            10,
+            13,
+            17,
+            58,
+            90
+        ],
+        "jolly": 32,
+        "superstar": 7
+    },
+    {
+        "concorso": 57,
+        "anno": 2026,
+        "numeri": [
+            2,
+            30,
+            38,
+            63,
+            74,
+            84
+        ],
+        "jolly": 19,
+        "superstar": 82
+    },
+    {
+        "concorso": 56,
+        "anno": 2026,
+        "numeri": [
+            10,
+            16,
+            18,
+            47,
+            50,
+            59
+        ],
+        "jolly": 7,
+        "superstar": 60
+    },
+    {
+        "concorso": 55,
+        "anno": 2026,
+        "numeri": [
+            8,
+            21,
+            29,
+            46,
+            60,
+            81
+        ],
+        "jolly": 42,
+        "superstar": 80
+    },
+    {
+        "concorso": 54,
+        "anno": 2026,
+        "numeri": [
+            28,
+            52,
+            53,
+            64,
+            66,
+            72
+        ],
+        "jolly": 44,
+        "superstar": 6
+    },
+    {
+        "concorso": 53,
+        "anno": 2026,
+        "numeri": [
+            18,
+            24,
+            25,
+            32,
+            36,
+            63
+        ],
+        "jolly": 40,
+        "superstar": 80
+    },
+    {
+        "concorso": 52,
+        "anno": 2026,
+        "numeri": [
+            1,
+            3,
+            39,
+            46,
+            47,
+            61
+        ],
+        "jolly": 25,
+        "superstar": 67
+    },
+    {
+        "concorso": 51,
+        "anno": 2026,
+        "numeri": [
+            9,
+            45,
+            62,
+            67,
+            68,
+            81
+        ],
+        "jolly": 36,
+        "superstar": 54
+    },
+    {
+        "concorso": 50,
+        "anno": 2026,
+        "numeri": [
+            6,
+            22,
+            27,
+            43,
+            58,
+            64
+        ],
+        "jolly": 10,
+        "superstar": 74
+    },
+    {
+        "concorso": 49,
+        "anno": 2026,
+        "numeri": [
+            24,
+            26,
+            39,
+            69,
+            77,
+            80
+        ],
+        "jolly": 82,
+        "superstar": 3
+    },
+    {
+        "concorso": 48,
+        "anno": 2026,
+        "numeri": [
+            6,
+            54,
+            60,
+            64,
+            74,
+            87
+        ],
+        "jolly": 10,
+        "superstar": 65
+    },
+    {
+        "concorso": 47,
+        "anno": 2026,
+        "numeri": [
+            9,
+            26,
+            33,
+            49,
+            51,
+            55
+        ],
+        "jolly": 50,
+        "superstar": 4
+    },
+    {
+        "concorso": 46,
+        "anno": 2026,
+        "numeri": [
+            14,
+            32,
+            45,
+            51,
+            54,
+            87
+        ],
+        "jolly": 61,
+        "superstar": 50
+    },
+    {
+        "concorso": 45,
+        "anno": 2026,
+        "numeri": [
+            19,
+            39,
+            45,
+            54,
+            62,
+            89
+        ],
+        "jolly": 42,
+        "superstar": 45
+    },
+    {
+        "concorso": 44,
+        "anno": 2026,
+        "numeri": [
+            2,
+            13,
+            16,
+            41,
+            53,
+            56
+        ],
+        "jolly": 60,
+        "superstar": 6
+    },
+    {
+        "concorso": 43,
+        "anno": 2026,
+        "numeri": [
+            3,
+            6,
+            33,
+            63,
+            88,
+            89
+        ],
+        "jolly": 18,
+        "superstar": 87
+    },
+    {
+        "concorso": 42,
+        "anno": 2026,
+        "numeri": [
+            3,
+            11,
+            13,
+            20,
+            53,
+            61
+        ],
+        "jolly": 88,
+        "superstar": 43
+    },
+    {
+        "concorso": 41,
+        "anno": 2026,
+        "numeri": [
+            8,
+            24,
+            25,
+            62,
+            63,
+            64
+        ],
+        "jolly": 43,
+        "superstar": 54
+    },
+    {
+        "concorso": 40,
+        "anno": 2026,
+        "numeri": [
+            8,
+            34,
+            42,
+            47,
+            55,
+            83
+        ],
+        "jolly": 4,
+        "superstar": 42
+    },
+    {
+        "concorso": 39,
+        "anno": 2026,
+        "numeri": [
+            3,
+            12,
+            18,
+            40,
+            45,
+            69
+        ],
+        "jolly": 5,
+        "superstar": 49
+    },
+    {
+        "concorso": 38,
+        "anno": 2026,
+        "numeri": [
+            4,
+            17,
+            22,
+            37,
+            50,
+            88
+        ],
+        "jolly": 20,
+        "superstar": 2
+    },
+    {
+        "concorso": 37,
+        "anno": 2026,
+        "numeri": [
+            7,
+            23,
+            39,
+            62,
+            63,
+            78
+        ],
+        "jolly": 22,
+        "superstar": 35
+    },
+    {
+        "concorso": 36,
+        "anno": 2026,
+        "numeri": [
+            4,
+            16,
+            42,
+            48,
+            56,
+            68
+        ],
+        "jolly": 26,
+        "superstar": 83
+    },
+    {
+        "concorso": 35,
+        "anno": 2026,
+        "numeri": [
+            14,
+            17,
+            33,
+            63,
+            64,
+            80
+        ],
+        "jolly": 15,
+        "superstar": 27
+    },
+    {
+        "concorso": 34,
+        "anno": 2026,
+        "numeri": [
+            10,
+            14,
+            49,
+            55,
+            71,
+            79
+        ],
+        "jolly": 80,
+        "superstar": 36
+    },
+    {
+        "concorso": 33,
+        "anno": 2026,
+        "numeri": [
+            18,
+            30,
+            36,
+            52,
+            67,
+            72
+        ],
+        "jolly": 69,
+        "superstar": 47
+    },
+    {
+        "concorso": 32,
+        "anno": 2026,
+        "numeri": [
+            4,
+            18,
+            23,
+            26,
+            45,
+            87
+        ],
+        "jolly": 82,
+        "superstar": 29
+    },
+    {
+        "concorso": 31,
+        "anno": 2026,
+        "numeri": [
+            49,
+            58,
+            60,
+            66,
+            68,
+            81
+        ],
+        "jolly": 75,
+        "superstar": 58
+    },
+    {
+        "concorso": 30,
+        "anno": 2026,
+        "numeri": [
+            30,
+            34,
+            41,
+            42,
+            49,
+            83
+        ],
+        "jolly": 64,
+        "superstar": 77
+    },
+    {
+        "concorso": 29,
+        "anno": 2026,
+        "numeri": [
+            20,
+            39,
+            40,
+            43,
+            76,
+            90
+        ],
+        "jolly": 53,
+        "superstar": 53
+    },
+    {
+        "concorso": 28,
+        "anno": 2026,
+        "numeri": [
+            16,
+            21,
+            42,
+            45,
+            52,
+            88
+        ],
+        "jolly": 58,
+        "superstar": 21
+    },
+    {
+        "concorso": 27,
+        "anno": 2026,
+        "numeri": [
+            5,
+            23,
+            40,
+            47,
+            80,
+            85
+        ],
+        "jolly": 6,
+        "superstar": 47
+    },
+    {
+        "concorso": 26,
+        "anno": 2026,
+        "numeri": [
+            1,
+            52,
+            57,
+            71,
+            76,
+            83
+        ],
+        "jolly": 37,
+        "superstar": 3
+    },
+    {
+        "concorso": 25,
+        "anno": 2026,
+        "numeri": [
+            5,
+            11,
+            35,
+            52,
+            80,
+            85
+        ],
+        "jolly": 66,
+        "superstar": 29
+    },
+    {
+        "concorso": 24,
+        "anno": 2026,
+        "numeri": [
+            1,
+            15,
+            29,
+            39,
+            63,
+            83
+        ],
+        "jolly": 73,
+        "superstar": 21
+    },
+    {
+        "concorso": 23,
+        "anno": 2026,
+        "numeri": [
+            4,
+            7,
+            12,
+            30,
+            69,
+            81
+        ],
+        "jolly": 41,
+        "superstar": 67
+    },
+    {
+        "concorso": 22,
+        "anno": 2026,
+        "numeri": [
+            6,
+            8,
+            17,
+            31,
+            36,
+            75
+        ],
+        "jolly": 90,
+        "superstar": 82
+    },
+    {
+        "concorso": 21,
+        "anno": 2026,
+        "numeri": [
+            6,
+            8,
+            26,
+            27,
+            57,
+            90
+        ],
+        "jolly": 41,
+        "superstar": 30
+    },
+    {
+        "concorso": 20,
+        "anno": 2026,
+        "numeri": [
+            11,
+            16,
+            17,
+            41,
+            42,
+            46
+        ],
+        "jolly": 70,
+        "superstar": 57
+    },
+    {
+        "concorso": 19,
+        "anno": 2026,
+        "numeri": [
+            2,
+            6,
+            7,
+            33,
+            37,
+            80
+        ],
+        "jolly": 11,
+        "superstar": 80
+    },
+    {
+        "concorso": 18,
+        "anno": 2026,
+        "numeri": [
+            32,
+            33,
+            39,
+            40,
+            52,
+            86
+        ],
+        "jolly": 63,
+        "superstar": 16
+    },
+    {
+        "concorso": 17,
+        "anno": 2026,
+        "numeri": [
+            29,
+            30,
+            34,
+            56,
+            66,
+            80
+        ],
+        "jolly": 88,
+        "superstar": 11
+    },
+    {
+        "concorso": 16,
+        "anno": 2026,
+        "numeri": [
+            11,
+            19,
+            27,
+            31,
+            54,
+            84
+        ],
+        "jolly": 38,
+        "superstar": 37
+    },
+    {
+        "concorso": 15,
+        "anno": 2026,
+        "numeri": [
+            22,
+            37,
+            55,
+            61,
+            68,
+            71
+        ],
+        "jolly": 21,
+        "superstar": 18
+    },
+    {
+        "concorso": 14,
+        "anno": 2026,
+        "numeri": [
+            2,
+            6,
+            11,
+            19,
+            88,
+            90
+        ],
+        "jolly": 69,
+        "superstar": 52
+    },
+    {
+        "concorso": 13,
+        "anno": 2026,
+        "numeri": [
+            2,
+            30,
+            52,
+            56,
+            57,
+            78
+        ],
+        "jolly": 59,
+        "superstar": 25
+    },
+    {
+        "concorso": 12,
+        "anno": 2026,
+        "numeri": [
+            8,
+            13,
+            25,
+            60,
+            72,
+            74
+        ],
+        "jolly": 78,
+        "superstar": 34
+    },
+    {
+        "concorso": 11,
+        "anno": 2026,
+        "numeri": [
+            3,
+            7,
+            41,
+            56,
+            65,
+            83
+        ],
+        "jolly": 79,
+        "superstar": 82
+    },
+    {
+        "concorso": 10,
+        "anno": 2026,
+        "numeri": [
+            14,
+            21,
+            24,
+            52,
+            80,
+            86
+        ],
+        "jolly": 57,
+        "superstar": 14
+    },
+    {
+        "concorso": 9,
+        "anno": 2026,
+        "numeri": [
+            44,
+            49,
+            60,
+            69,
+            73,
+            85
+        ],
+        "jolly": 36,
+        "superstar": 1
+    },
+    {
+        "concorso": 8,
+        "anno": 2026,
+        "numeri": [
+            20,
+            29,
+            56,
+            68,
+            72,
+            74
+        ],
+        "jolly": 35,
+        "superstar": 50
+    },
+    {
+        "concorso": 7,
+        "anno": 2026,
+        "numeri": [
+            1,
+            11,
+            40,
+            73,
+            75,
+            81
+        ],
+        "jolly": 70,
+        "superstar": 22
+    },
+    {
+        "concorso": 6,
+        "anno": 2026,
+        "numeri": [
+            11,
+            19,
+            24,
+            66,
+            82,
+            88
+        ],
+        "jolly": 58,
+        "superstar": 48
+    },
+    {
+        "concorso": 5,
+        "anno": 2026,
+        "numeri": [
+            31,
+            33,
+            61,
+            68,
+            71,
+            72
+        ],
+        "jolly": 87,
+        "superstar": 18
+    },
+    {
+        "concorso": 4,
+        "anno": 2026,
+        "numeri": [
+            35,
+            42,
+            45,
+            53,
+            55,
+            88
+        ],
+        "jolly": 66,
+        "superstar": 52
+    },
+    {
+        "concorso": 3,
+        "anno": 2026,
+        "numeri": [
+            11,
+            13,
+            17,
+            56,
+            80,
+            84
+        ],
+        "jolly": 41,
+        "superstar": 13
+    },
+    {
+        "concorso": 2,
+        "anno": 2026,
+        "numeri": [
+            16,
+            30,
+            32,
+            43,
+            68,
+            76
+        ],
+        "jolly": 36,
+        "superstar": 58
+    },
+    {
+        "concorso": 1,
+        "anno": 2026,
+        "numeri": [
+            29,
+            33,
+            47,
+            56,
+            69,
+            89
+        ],
+        "jolly": 16,
+        "superstar": 7
+    }
+]
