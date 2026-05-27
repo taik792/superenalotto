@@ -44,24 +44,22 @@
     fetch('estrazioni.json')
         .then(res => res.json())
         .then(data => {
+            // Prende l'ultimo elemento dell'array (il più giovane)
             const last = data[data.length - 1];
+            
             document.getElementById('last-data').innerHTML = `
                 <p><strong>Concorso n. ${last.concorso} (${last.anno})</strong></p>
                 Numeri: ${last.numeri.join(", ")} <br>
-                Jolly: <strong>${last.jolly}</strong> | SuperStar: <strong>${last.superstar}</strong>
+                Jolly: <strong>${last.jolly || "N/A"}</strong> | 
+                SuperStar: <strong>${last.superstar}</strong>
+            `;
+            
+            // Visualizzazione sestina + superstar
+            document.getElementById('sestina-generata').innerHTML = `
+                ${last.numeri.map(n => `<span class="ball">${n}</span>`).join('')}
+                <span class="ball" style="background:#e11d48">${last.superstar}</span>
             `;
         });
-
-    function generaJSON() {
-        const newObj = {
-            "concorso": parseInt(document.getElementById('in-n').value),
-            "anno": 2026,
-            "numeri": document.getElementById('in-num').value.split(',').map(n => parseInt(n.trim())),
-            "jolly": parseInt(document.getElementById('in-j').value),
-            "superstar": parseInt(document.getElementById('in-ss').value)
-        };
-        document.getElementById('output-json').innerText = JSON.stringify(newObj) + ",";
-    }
 </script>
 </body>
 </html>
