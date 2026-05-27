@@ -2,68 +2,88 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>SuperEnalotto Analytics 2026</title>
+    <title>Motore SuperEnalotto</title>
     <style>
-        body { background: #0f172a; color: #f8fafc; font-family: 'Segoe UI', sans-serif; padding: 20px; }
-        .card { background: #1e293b; padding: 25px; border-radius: 15px; border: 1px solid #334155; margin-bottom: 20px; }
-        h1 { color: #22c55e; text-align: center; }
-        .ball { display: inline-block; width: 40px; height: 40px; border-radius: 50%; background: #22c55e; color: white; text-align: center; line-height: 40px; font-weight: bold; margin: 5px; }
-        input { padding: 10px; border-radius: 5px; border: none; width: 150px; }
-        button { padding: 10px 20px; background: #22c55e; color: white; border: none; border-radius: 5px; cursor: pointer; }
-        pre { background: #000; color: #22c55e; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        body { font-family: sans-serif; padding: 20px; }
+        .ball {
+            display: inline-block;
+            width: 45px; height: 45px;
+            line-height: 45px;
+            text-align: center;
+            border-radius: 50%;
+            background: #22c55e; /* Verde standard */
+            color: white; font-weight: bold;
+            margin: 5px;
+        }
+        .superstar {
+            background: #e11d48 !important; /* Rosso per Superstar */
+            border: 2px solid #881337;
+        }
+        #container { margin-top: 20px; }
     </style>
 </head>
 <body>
 
-<div class="card">
-    <h1>SuperEnalotto Analytics 2026</h1>
-    
-    <h3>➕ Inserimento Nuovi Dati</h3>
-    <input type="number" id="in-n" placeholder="N. Concorso">
-    <input type="text" id="in-num" placeholder="Numeri (es: 6,9,17,20,60,67)">
-    <input type="number" id="in-j" placeholder="Jolly">
-    <input type="number" id="in-ss" placeholder="SuperStar">
-    <button onclick="generaJSON()">Genera JSON</button>
-    <pre id="output-json">...attendendo input...</pre>
-</div>
-
-<div class="card">
-    <h3>Ultimo Concorso Disponibile</h3>
-    <div id="last-data">Caricamento in corso...</div>
-</div>
-
-<div class="card" style="border: 2px solid #22c55e;">
-    <h3>Sestina Calcolata (Motore Real-Time)</h3>
-    <div id="sestina-generata">
-        <span class="ball">5</span><span class="ball">12</span><span class="ball">14</span>
-        <span class="ball">32</span><span class="ball">36</span><span class="ball">78</span>
+    <h1>Analisi Statistica SuperEnalotto</h1>
+    <div id="ultimo-concorso">Caricamento estrazione recente...</div>
+    <div id="container">
+        <h3>Sestina Generata (4 Frequenti + 2 Ritardatari):</h3>
+        <div id="sestina-generata"></div>
     </div>
-</div>
 
-<script>
-    fetch('estrazioni.json')
-        .then(res => res.json())
-        .then(data => {
-            // Filtra per anno 2026 e trova il concorso 83
-            const concorso83 = data.find(c => c.anno === 2026 && c.concorso === 83);
-            
-            // Se non trova l'83, cade di default sull'ultimo elemento dell'array
-            const last = concorso83 || data[data.length - 1];
-            
-            // Visualizzazione Dati
-            document.getElementById('last-data').innerHTML = `
-                <p><strong>Concorso n. ${last.concorso} (${last.anno})</strong></p>
-                Numeri: ${last.numeri.join(", ")} <br>
-                Jolly: <strong>${last.jolly !== undefined ? last.jolly : "N/A"}</strong> | 
-                SuperStar: <strong>${last.superstar}</strong>
-            `;
-            
-            // Visualizzazione Sestina (Verde) + Superstar (Rossa)
-            document.getElementById('sestina-generata').innerHTML = `
-                ${last.numeri.map(n => `<span class="ball">${n}</span>`).join('')}
-                <span class="ball" style="background:#e11d48">${last.superstar}</span>
-            `;
-        });
-</script>
+    <script>
+        fetch('estrazioni.json')
+            .then(res => res.json())
+            .then(data => {
+                // 1. Ordine cronologico
+                data.sort((a, b) => a.concorso - b.concorso);
+                
+                // 2. Mostra l'ultima estrazione reale
+                let ultima = data[data.length - 1];
+                document.getElementById('ultimo-concorso').innerHTML = 
+                    `<strong>Ultimo Concorso (${ultima.concorso}):</strong> ${ultima.numeri.join(', ')} | SS: ${ultima.superstar}`;
+
+                // 3. Analisi Statistica
+                let frequenze = {};
+                let ultimaPresenza = {};
+
+                data.forEach((c, index) => {
+                    c.numeri.forEach(num => {
+                        frequenze[num] = (frequenze[num] || 0) + 1;
+                        ultimaPresenza[num] = index;
+                    });
+                });
+
+                // A) 4 Numeri più frequenti
+                let sortedFreq = Object.keys(frequenze).sort((a, b) => frequenze[b] - frequenze[a]);
+                let quattroFrequenti = sortedFreq.slice(0, 4).map(Number);
+
+                // B) 2 Numeri più ritardatari (che mancano da più tempo)
+                let sortedRitardatari = Object.keys(frequenze).sort((a, b) => ultimaPresenza[a] - ultimaPresenza[b]);
+                let dueRitardatari = sortedRitardatari.slice(0, 2).map(Number);
+
+                // C) Unione e rimozione duplicati
+                let sestina = [...new Set([...quattroFrequenti, ...dueRitardatari])].sort((a, b) => a - b);
+                
+                // Se mancano numeri (per sicurezza), aggiungiamo casuali
+                while(sestina.length < 6) {
+                    let r = Math.floor(Math.random() * 90) + 1;
+                    if(!sestina.includes(r)) sestina.push(r);
+                }
+                sestina = sestina.slice(0, 6).sort((a, b) => a - b);
+
+                // D) SuperStar Casuale
+                let superStar = Math.floor(Math.random() * 90) + 1;
+
+                // 4. Stampa a video
+                document.getElementById('sestina-generata').innerHTML = 
+                    sestina.map(n => `<span class="ball">${n}</span>`).join('') +
+                    `<span class="ball superstar">${superStar}</span>`;
+            })
+            .catch(err => {
+                document.getElementById('ultimo-concorso').innerHTML = "Errore: File estrazioni.json non trovato o corrotto.";
+                console.error(err);
+            });
+    </script>
 </body>
 </html>
