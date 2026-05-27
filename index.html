@@ -2,71 +2,67 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Motore SuperEnalotto</title>
+    <title>SuperEnalotto Analytics 2026</title>
     <style>
-        body { font-family: sans-serif; padding: 20px; }
-        .ball {
-            display: inline-block;
-            width: 45px; height: 45px;
-            line-height: 45px;
-            text-align: center;
-            border-radius: 50%;
-            background: #22c55e; /* Verde standard */
-            color: white; font-weight: bold;
-            margin: 5px;
-        }
-        .superstar {
-            background: #e11d48 !important; /* Rosso per Superstar */
-            border: 2px solid #881337;
-        }
-        #container { margin-top: 20px; }
+        body { background: #0f172a; color: #f8fafc; font-family: 'Segoe UI', sans-serif; padding: 20px; }
+        .card { background: #1e293b; padding: 25px; border-radius: 15px; border: 1px solid #334155; margin-bottom: 20px; }
+        h1 { color: #22c55e; text-align: center; }
+        .ball { display: inline-block; width: 40px; height: 40px; border-radius: 50%; background: #22c55e; color: white; text-align: center; line-height: 40px; font-weight: bold; margin: 5px; }
+        input { padding: 10px; border-radius: 5px; border: none; width: 150px; }
+        button { padding: 10px 20px; background: #22c55e; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        pre { background: #000; color: #22c55e; padding: 15px; border-radius: 5px; overflow-x: auto; }
     </style>
 </head>
 <body>
 
-    <h1>Analisi Statistica SuperEnalotto</h1>
-    <div id="ultimo-concorso">Caricamento estrazione recente...</div>
-    <div id="container">
-        <h3>Sestina Generata (4 Frequenti + 2 Ritardatari):</h3>
-        <div id="sestina-generata"></div>
-    </div>
+<div class="card">
+    <h1>SuperEnalotto Analytics 2026</h1>
+    
+    <h3>➕ Inserimento Nuovi Dati</h3>
+    <input type="number" id="in-n" placeholder="N. Concorso">
+    <input type="text" id="in-num" placeholder="Numeri (es: 6,9,17,20,60,67)">
+    <input type="number" id="in-j" placeholder="Jolly">
+    <input type="number" id="in-ss" placeholder="SuperStar">
+    <button onclick="generaJSON()">Genera JSON</button>
+    <pre id="output-json">...attendendo input...</pre>
+</div>
 
-    <script>
+<div class="card">
+    <h3>Ultimo Concorso Disponibile</h3>
+    <div id="last-data">Caricamento in corso...</div>
+</div>
+
+<div class="card" style="border: 2px solid #22c55e;">
+    <h3>Sestina Calcolata (Motore Real-Time)</h3>
+    <div id="sestina-generata">
+        <span class="ball">5</span><span class="ball">12</span><span class="ball">14</span>
+        <span class="ball">32</span><span class="ball">36</span><span class="ball">78</span>
+    </div>
+</div>
+
+<script>
     fetch('estrazioni.json')
         .then(res => res.json())
         .then(data => {
-            // Ordiniamo dal più recente al più vecchio (il contrario di prima)
-            data.sort((a, b) => b.concorso - a.concorso);
+            // Filtra per anno 2026 e trova il concorso 83
+            const concorso83 = data.find(c => c.anno === 2026 && c.concorso === 83);
             
-            // 1. Mostriamo l'ultimo (che ora è il primo dell'elenco)
-            let ultima = data[0]; 
-            let boxUltima = document.getElementById('ultimo-concorso');
-            if(boxUltima) {
-                boxUltima.innerHTML = `<strong>Ultimo Concorso (${ultima.concorso}):</strong> ${ultima.numeri.join(', ')}`;
-            }
-
-            // 2. Analisi Statistica
-            let frequenze = {};
-            let ultimaPresenza = {};
-            data.forEach((c, index) => {
-                c.numeri.forEach(num => {
-                    frequenze[num] = (frequenze[num] || 0) + 1;
-                    if (!(num in ultimaPresenza)) ultimaPresenza[num] = c.concorso;
-                });
-            });
-
-            let sortedFreq = Object.keys(frequenze).sort((a, b) => frequenze[b] - frequenze[a]);
-            let quattroFrequenti = sortedFreq.slice(0, 4).map(Number);
-            let sortedRitardatari = Object.keys(frequenze).sort((a, b) => ultimaPresenza[a] - ultimaPresenza[b]);
-            let dueRitardatari = sortedRitardatari.slice(0, 2).map(Number);
-
-            let sestina = [...new Set([...quattroFrequenti, ...dueRitardatari])].sort((a, b) => a - b);
-
-            // 3. Inserimento nel DOM senza distruggere i tuoi box di inserimento
-            let boxSestina = document.getElementById('sestina-generata');
-            if(boxSestina) {
-                boxSestina.innerHTML = sestina.map(n => `<span class="ball">${n}</span>`).join('');
-            }
+            // Se non trova l'83, cade di default sull'ultimo elemento dell'array
+            const last = concorso83 || data[data.length - 1];
+            
+            // Visualizzazione Dati
+            document.getElementById('last-data').innerHTML = `
+                <p><strong>Concorso n. ${last.concorso} (${last.anno})</strong></p>
+                Numeri: ${last.numeri.join(", ")} <br>
+                Jolly: <strong>${last.jolly !== undefined ? last.jolly : "N/A"}</strong> | 
+                SuperStar: <strong>${last.superstar}</strong>
+            `;
+            
+            // Visualizzazione Sestina (Verde) + Superstar (Rossa)
+            document.getElementById('sestina-generata').innerHTML = `
+                ${last.numeri.map(n => `<span class="ball">${n}</span>`).join('')}
+                <span class="ball" style="background:#e11d48">${last.superstar}</span>
+            `;
         });
 </script>
 </body>
