@@ -44,50 +44,44 @@
     fetch('estrazioni.json')
         .then(res => res.json())
         .then(data => {
-            // Ordiniamo per concorso (dal più vecchio al più recente)
-            data.sort((a, b) => a.concorso - b.concorso);
+            // ORDINE CORRETTO: Prima anno, poi concorso
+            data.sort((a, b) => {
+                if (a.anno !== b.anno) return a.anno - b.anno;
+                return a.concorso - b.concorso;
+            });
             
-            // 1. Mostra l'ultimo concorso reale (sez. "Ultimo Concorso")
+            // Ora l'ultimo elemento è garantito essere il più recente in assoluto
             const last = data[data.length - 1];
+            
             document.getElementById('last-data').innerHTML = `
                 <p><strong>Concorso n. ${last.concorso} (${last.anno})</strong></p>
                 Numeri: ${last.numeri.join(", ")} <br>
                 Jolly: <strong>${last.jolly}</strong> | SuperStar: <strong>${last.superstar}</strong>
             `;
 
-            // 2. MOTORE DI CALCOLO (4 Frequenti + 2 Ritardatari)
+            // ... (il resto del codice del motore statistico rimane uguale)
             let frequenze = {};
             let ultimaPresenza = {};
 
             data.forEach((c, index) => {
                 c.numeri.forEach(num => {
                     frequenze[num] = (frequenze[num] || 0) + 1;
-                    ultimaPresenza[num] = index; // Indice del concorso
+                    ultimaPresenza[num] = index;
                 });
             });
 
-            // A) 4 Frequenti
             let sortedFreq = Object.keys(frequenze).sort((a, b) => frequenze[b] - frequenze[a]);
             let quattroFrequenti = sortedFreq.slice(0, 4).map(Number);
-
-            // B) 2 Ritardatari (indice più basso = assente da più tempo)
             let sortedRitardatari = Object.keys(frequenze).sort((a, b) => ultimaPresenza[a] - ultimaPresenza[b]);
             let dueRitardatari = sortedRitardatari.slice(0, 2).map(Number);
 
-            // C) Unione sestina finale senza duplicati
             let sestina = [...new Set([...quattroFrequenti, ...dueRitardatari])].sort((a, b) => a - b);
-            
-            // D) SuperStar Casuale
             let superStar = Math.floor(Math.random() * 90) + 1;
 
-            // 3. Visualizzazione nel box "Sestina Calcolata"
             document.getElementById('sestina-generata').innerHTML = `
                 ${sestina.map(n => `<span class="ball">${n}</span>`).join('')}
                 <span class="ball" style="background:#e11d48">${superStar}</span>
             `;
-        })
-        .catch(err => {
-            console.error("Errore nel caricamento dei dati:", err);
         });
 </script>
 </body>
