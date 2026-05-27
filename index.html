@@ -32,58 +32,42 @@
     </div>
 
     <script>
-        fetch('estrazioni.json')
-            .then(res => res.json())
-            .then(data => {
-                // 1. Ordine cronologico
-                data.sort((a, b) => a.concorso - b.concorso);
-                
-                // 2. Mostra l'ultima estrazione reale
-                let ultima = data[data.length - 1];
-                document.getElementById('ultimo-concorso').innerHTML = 
-                    `<strong>Ultimo Concorso (${ultima.concorso}):</strong> ${ultima.numeri.join(', ')} | SS: ${ultima.superstar}`;
+    fetch('estrazioni.json')
+        .then(res => res.json())
+        .then(data => {
+            // Ordiniamo dal più recente al più vecchio (il contrario di prima)
+            data.sort((a, b) => b.concorso - a.concorso);
+            
+            // 1. Mostriamo l'ultimo (che ora è il primo dell'elenco)
+            let ultima = data[0]; 
+            let boxUltima = document.getElementById('ultimo-concorso');
+            if(boxUltima) {
+                boxUltima.innerHTML = `<strong>Ultimo Concorso (${ultima.concorso}):</strong> ${ultima.numeri.join(', ')}`;
+            }
 
-                // 3. Analisi Statistica
-                let frequenze = {};
-                let ultimaPresenza = {};
-
-                data.forEach((c, index) => {
-                    c.numeri.forEach(num => {
-                        frequenze[num] = (frequenze[num] || 0) + 1;
-                        ultimaPresenza[num] = index;
-                    });
+            // 2. Analisi Statistica
+            let frequenze = {};
+            let ultimaPresenza = {};
+            data.forEach((c, index) => {
+                c.numeri.forEach(num => {
+                    frequenze[num] = (frequenze[num] || 0) + 1;
+                    if (!(num in ultimaPresenza)) ultimaPresenza[num] = c.concorso;
                 });
-
-                // A) 4 Numeri più frequenti
-                let sortedFreq = Object.keys(frequenze).sort((a, b) => frequenze[b] - frequenze[a]);
-                let quattroFrequenti = sortedFreq.slice(0, 4).map(Number);
-
-                // B) 2 Numeri più ritardatari (che mancano da più tempo)
-                let sortedRitardatari = Object.keys(frequenze).sort((a, b) => ultimaPresenza[a] - ultimaPresenza[b]);
-                let dueRitardatari = sortedRitardatari.slice(0, 2).map(Number);
-
-                // C) Unione e rimozione duplicati
-                let sestina = [...new Set([...quattroFrequenti, ...dueRitardatari])].sort((a, b) => a - b);
-                
-                // Se mancano numeri (per sicurezza), aggiungiamo casuali
-                while(sestina.length < 6) {
-                    let r = Math.floor(Math.random() * 90) + 1;
-                    if(!sestina.includes(r)) sestina.push(r);
-                }
-                sestina = sestina.slice(0, 6).sort((a, b) => a - b);
-
-                // D) SuperStar Casuale
-                let superStar = Math.floor(Math.random() * 90) + 1;
-
-                // 4. Stampa a video
-                document.getElementById('sestina-generata').innerHTML = 
-                    sestina.map(n => `<span class="ball">${n}</span>`).join('') +
-                    `<span class="ball superstar">${superStar}</span>`;
-            })
-            .catch(err => {
-                document.getElementById('ultimo-concorso').innerHTML = "Errore: File estrazioni.json non trovato o corrotto.";
-                console.error(err);
             });
-    </script>
+
+            let sortedFreq = Object.keys(frequenze).sort((a, b) => frequenze[b] - frequenze[a]);
+            let quattroFrequenti = sortedFreq.slice(0, 4).map(Number);
+            let sortedRitardatari = Object.keys(frequenze).sort((a, b) => ultimaPresenza[a] - ultimaPresenza[b]);
+            let dueRitardatari = sortedRitardatari.slice(0, 2).map(Number);
+
+            let sestina = [...new Set([...quattroFrequenti, ...dueRitardatari])].sort((a, b) => a - b);
+
+            // 3. Inserimento nel DOM senza distruggere i tuoi box di inserimento
+            let boxSestina = document.getElementById('sestina-generata');
+            if(boxSestina) {
+                boxSestina.innerHTML = sestina.map(n => `<span class="ball">${n}</span>`).join('');
+            }
+        });
+</script>
 </body>
 </html>
