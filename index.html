@@ -4,23 +4,14 @@
     <meta charset="UTF-8">
     <title>SuperEnalotto Analytics 2026</title>
     <style>
-    /* La base delle palline */
-    .ball {
-        display: inline-block;
-        width: 40px; height: 40px;
-        line-height: 40px;
-        text-align: center;
-        border-radius: 50%;
-        background: #22c55e; /* Verde per i 6 numeri */
-        color: white; font-weight: bold;
-        margin: 5px;
-    }
-    /* Il colore specifico per il Superstar */
-    .superstar {
-        background: #e11d48 !important; /* Rosso forzato per il Superstar */
-        border: 2px solid #fff;
-    }
-</style>
+        body { background: #0f172a; color: #f8fafc; font-family: 'Segoe UI', sans-serif; padding: 20px; }
+        .card { background: #1e293b; padding: 25px; border-radius: 15px; border: 1px solid #334155; margin-bottom: 20px; }
+        h1 { color: #22c55e; text-align: center; }
+        .ball { display: inline-block; width: 40px; height: 40px; border-radius: 50%; background: #22c55e; color: white; text-align: center; line-height: 40px; font-weight: bold; margin: 5px; }
+        input { padding: 10px; border-radius: 5px; border: none; width: 150px; }
+        button { padding: 10px 20px; background: #22c55e; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        pre { background: #000; color: #22c55e; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    </style>
 </head>
 <body>
 
@@ -53,45 +44,24 @@
     fetch('estrazioni.json')
         .then(res => res.json())
         .then(data => {
-            // Ordiniamo per concorso (numero crescente)
-            data.sort((a, b) => a.concorso - b.concorso);
+            // Filtra per anno 2026 e trova il concorso 83
+            const concorso83 = data.find(c => c.anno === 2026 && c.concorso === 83);
             
-            // --- PARTE A: Visualizza l'ultima estrazione reale ---
-            let ultima = data[data.length - 1]; 
-            document.getElementById('ultimo-concorso').innerHTML = `
-                Concorso ${ultima.concorso}: 
-                ${ultima.numeri.join(', ')} | Jolly: ${ultima.jolly} | SS: ${ultima.superstar}
+            // Se non trova l'83, cade di default sull'ultimo elemento dell'array
+            const last = concorso83 || data[data.length - 1];
+            
+            // Visualizzazione Dati
+            document.getElementById('last-data').innerHTML = `
+                <p><strong>Concorso n. ${last.concorso} (${last.anno})</strong></p>
+                Numeri: ${last.numeri.join(", ")} <br>
+                Jolly: <strong>${last.jolly !== undefined ? last.jolly : "N/A"}</strong> | 
+                SuperStar: <strong>${last.superstar}</strong>
             `;
-
-            // --- PARTE B: Calcolo sestina (4 frequenti + 2 ritardatari) ---
-            let frequenze = {};
-            let ultimaPresenza = {};
-            data.forEach((c, index) => {
-                c.numeri.forEach(num => {
-                    frequenze[num] = (frequenze[num] || 0) + 1;
-                    ultimaPresenza[num] = index;
-                });
-            });
-
-            let sortedFreq = Object.keys(frequenze).sort((a, b) => frequenze[b] - frequenze[a]);
-            let quattroFrequenti = sortedFreq.slice(0, 4).map(Number);
-            let sortedRitardatari = Object.keys(frequenze).sort((a, b) => ultimaPresenza[a] - ultimaPresenza[b]);
-            let dueRitardatari = sortedRitardatari.slice(0, 2).map(Number);
-
-            let setSestina = new Set([...quattroFrequenti, ...dueRitardatari]);
-            let sestina = Array.from(setSestina).sort((a, b) => a - b);
             
-            while(sestina.length < 6) {
-                let r = Math.floor(Math.random() * 90) + 1;
-                if(!sestina.includes(r)) sestina.push(r);
-            }
-
-            let superStar = Math.floor(Math.random() * 90) + 1;
-
-            // --- PARTE C: Stampa a video con classi corrette ---
+            // Visualizzazione Sestina (Verde) + Superstar (Rossa)
             document.getElementById('sestina-generata').innerHTML = `
-                ${sestina.map(n => `<span class="ball">${n}</span>`).join('')}
-                <span class="ball superstar">${superStar}</span>
+                ${last.numeri.map(n => `<span class="ball">${n}</span>`).join('')}
+                <span class="ball" style="background:#e11d48">${last.superstar}</span>
             `;
         });
 </script>
