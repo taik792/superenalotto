@@ -44,17 +44,21 @@
     fetch('estrazioni.json')
         .then(res => res.json())
         .then(data => {
-            // Prende l'ultimo elemento dell'array (il più giovane)
-            const last = data[data.length - 1];
+            // Filtra per anno 2026 e trova il concorso 83
+            const concorso83 = data.find(c => c.anno === 2026 && c.concorso === 83);
             
+            // Se non trova l'83, cade di default sull'ultimo elemento dell'array
+            const last = concorso83 || data[data.length - 1];
+            
+            // Visualizzazione Dati
             document.getElementById('last-data').innerHTML = `
                 <p><strong>Concorso n. ${last.concorso} (${last.anno})</strong></p>
                 Numeri: ${last.numeri.join(", ")} <br>
-                Jolly: <strong>${last.jolly || "N/A"}</strong> | 
+                Jolly: <strong>${last.jolly !== undefined ? last.jolly : "N/A"}</strong> | 
                 SuperStar: <strong>${last.superstar}</strong>
             `;
             
-            // Visualizzazione sestina + superstar
+            // Visualizzazione Sestina (Verde) + Superstar (Rossa)
             document.getElementById('sestina-generata').innerHTML = `
                 ${last.numeri.map(n => `<span class="ball">${n}</span>`).join('')}
                 <span class="ball" style="background:#e11d48">${last.superstar}</span>
