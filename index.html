@@ -2,36 +2,54 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivio SuperEnalotto</title>
+    <title>SuperEnalotto Hub 2.0</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 20px; }
-        #container { margin-top: 20px; font-size: 1.2em; }
+        body { font-family: sans-serif; background: #f4f4f9; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+        th { background: #22c55e; color: white; }
+        .admin { background: #eef; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
-    <h1>Ultimo Concorso Disponibile</h1>
-    <div id="container">Caricamento dati in corso...</div>
 
-    <script>
-        // Ora il file si trova nella stessa cartella (home)
-        fetch('estrazioni.json')
-            .then(response => {
-                if (!response.ok) throw new Error("File non trovato");
-                return response.json();
-            })
-            .then(data => {
-                // Prende l'ultimo elemento dell'array
-                const ultimo = data[data.length - 1];
-                document.getElementById('container').innerHTML = 
-                    `<strong>Concorso n. ${ultimo.concorso} (${ultimo.anno})</strong><br>` +
-                    `Numeri: ${ultimo.numeri.join(", ")}<br>` +
-                    `SuperStar: ${ultimo.superstar}`;
-            })
-            .catch(error => {
-                document.getElementById('container').innerText = "Errore nel caricamento dell'archivio.";
-                console.error(error);
+<div class="container">
+    <h1>Archivio SuperEnalotto</h1>
+
+    <div class="admin">
+        <h3>Aggiungi nuovo concorso</h3>
+        <input type="number" id="in-n" placeholder="N. Concorso">
+        <input type="text" id="in-num" placeholder="Numeri (es: 1,5,12,34,56,88)">
+        <input type="number" id="in-ss" placeholder="SuperStar">
+        <button onclick="generaJSON()">Genera JSON</button>
+        <p id="output-json" style="word-break: break-all; font-family: monospace;"></p>
+    </div>
+
+    <table id="archive">
+        <tr><th>Concorso</th><th>Numeri</th><th>SS</th></tr>
+    </table>
+</div>
+
+<script>
+    fetch('estrazioni.json')
+        .then(res => res.json())
+        .then(data => {
+            const table = document.getElementById('archive');
+            data.reverse().forEach(c => {
+                table.innerHTML += `<tr><td>${c.concorso}</td><td>${c.numeri.join(", ")}</td><td>${c.superstar}</td></tr>`;
             });
-    </script>
+        });
+
+    function generaJSON() {
+        const newObj = {
+            concorso: parseInt(document.getElementById('in-n').value),
+            numeri: document.getElementById('in-num').value.split(',').map(n => parseInt(n.trim())),
+            superstar: parseInt(document.getElementById('in-ss').value)
+        };
+        document.getElementById('output-json').innerText = JSON.stringify(newObj);
+    }
+</script>
+
 </body>
 </html>
