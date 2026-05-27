@@ -84,5 +84,25 @@
             `;
         });
 </script>
+    <script>
+    function generaJSON() {
+        const n = document.getElementById('in-n').value;
+        const nums = document.getElementById('in-num').value.split(',').map(Number);
+        const j = parseInt(document.getElementById('in-j').value);
+        const ss = parseInt(document.getElementById('in-ss').value);
+        
+        // Struttura del nuovo concorso
+        const nuovoConcorso = {
+            "concorso": parseInt(n),
+            "anno": 2026,
+            "numeri": nums,
+            "jolly": j,
+            "superstar": ss
+        };
+
+        // Mostra il risultato nel <pre>
+        document.getElementById('output-json').innerText = JSON.stringify(nuovoConcorso, null, 2);
+    }
+</script>
 </body>
 </html>
