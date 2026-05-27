@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivio SuperEnalotto</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; }
+        #container { margin-top: 20px; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+    <h1>Ultimo Concorso Disponibile</h1>
+    <div id="container">Caricamento dati in corso...</div>
+
+    <script>
+        // Ora il file si trova nella stessa cartella (home)
+        fetch('estrazioni.json')
+            .then(response => {
+                if (!response.ok) throw new Error("File non trovato");
+                return response.json();
+            })
+            .then(data => {
+                // Prende l'ultimo elemento dell'array
+                const ultimo = data[data.length - 1];
+                document.getElementById('container').innerHTML = 
+                    `<strong>Concorso n. ${ultimo.concorso} (${ultimo.anno})</strong><br>` +
+                    `Numeri: ${ultimo.numeri.join(", ")}<br>` +
+                    `SuperStar: ${ultimo.superstar}`;
+            })
+            .catch(error => {
+                document.getElementById('container').innerText = "Errore nel caricamento dell'archivio.";
+                console.error(error);
+            });
+    </script>
+</body>
+</html>
