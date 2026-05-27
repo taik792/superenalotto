@@ -2,70 +2,58 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SuperEnalotto Dashboard</title>
+    <title>SuperEnalotto Analytics</title>
     <style>
-        /* Manteniamo il tuo stile originale qui */
-        body { font-family: sans-serif; background: #f4f4f9; padding: 20px; }
-        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        
-        /* Stile nuovo per il pannello Admin */
-        .admin-section { 
-            background: #eef2ff; 
-            padding: 20px; 
-            border-radius: 12px; 
-            margin-top: 40px; 
-            border: 2px dashed #4f46e5;
-        }
-        .admin-section input { padding: 8px; margin: 5px; width: 150px; }
-        .admin-section button { padding: 10px 20px; background: #4f46e5; color: white; border: none; border-radius: 5px; cursor: pointer; }
-        #json-output { 
-            background: #1e293b; 
-            color: #38bdf8; 
-            padding: 15px; 
-            margin-top: 15px; 
-            border-radius: 8px; 
-            font-family: monospace; 
-            word-break: break-all;
-            white-space: pre-wrap;
-        }
+        body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+        .admin-panel { border: 2px dashed #ccc; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        .result-box { margin-top: 20px; padding: 15px; background: #e8f5e9; border-radius: 8px; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>SuperEnalotto Analytics</h1>
-    <p>Il tuo software di analisi è attivo.</p>
 
-    <div class="admin-section">
+    <div class="admin-panel">
         <h3>Pannello Inserimento Nuovi Dati</h3>
         <input type="number" id="in-n" placeholder="N. Concorso">
-        <input type="text" id="in-num" placeholder="Numeri (es: 5,12,20,34,56,88)">
+        <input type="text" id="in-num" placeholder="Numeri (es: 5,12,14,32,36,78)">
         <input type="number" id="in-ss" placeholder="SuperStar">
         <button onclick="generaJSON()">Genera Codice JSON</button>
-        
-        <p>Copia il codice qui sotto e incollalo nel tuo file <code>estrazioni.json</code>:</p>
-        <div id="json-output">...attendendo input...</div>
+        <p id="output-json" style="font-family: monospace;"></p>
+    </div>
+
+    <div id="analytics-area">
+        <h3>Ultimo Concorso Disponibile</h3>
+        <div id="last-data" class="result-box">...caricamento...</div>
     </div>
 </div>
 
 <script>
-    // La tua logica esistente resta qui sopra...
+    // Caricamento dati e visualizzazione
+    fetch('data/estrazioni.json')
+        .then(res => res.json())
+        .then(data => {
+            const last = data[data.length - 1];
+            document.getElementById('last-data').innerHTML = `
+                Concorso n. ${last.concorso} (${last.anno})<br>
+                Numeri: ${last.numeri.join(", ")}<br>
+                SuperStar: ${last.superstar}
+            `;
+            // QUI PUOI AGGIUNGERE LA TUA LOGICA DI CALCOLO ORIGINALE
+            // es: calcolaNumeriCaldi(data);
+        });
 
-    // Funzione aggiunta per generare il JSON
+    // Funzione per il pannello inserimento
     function generaJSON() {
-        const n = document.getElementById('in-n').value;
-        const nums = document.getElementById('in-num').value.split(',').map(n => parseInt(n.trim()));
-        const ss = document.getElementById('in-ss').value;
-
-        const newEntry = {
-            "concorso": parseInt(n),
-            "anno": 2026,
-            "numeri": nums,
-            "superstar": parseInt(ss)
+        const newObj = {
+            "concorso": parseInt(document.getElementById('in-n').value),
+            "anno": 2024,
+            "numeri": document.getElementById('in-num').value.split(',').map(n => parseInt(n.trim())),
+            "superstar": parseInt(document.getElementById('in-ss').value)
         };
-
-        document.getElementById('json-output').innerText = JSON.stringify(newEntry, null, 4) + ",";
+        document.getElementById('output-json').innerText = JSON.stringify(newObj) + ",";
     }
 </script>
 
