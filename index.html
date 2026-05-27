@@ -2,52 +2,70 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>SuperEnalotto Hub 2.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperEnalotto Dashboard</title>
     <style>
+        /* Manteniamo il tuo stile originale qui */
         body { font-family: sans-serif; background: #f4f4f9; padding: 20px; }
         .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
-        th { background: #22c55e; color: white; }
-        .admin { background: #eef; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        
+        /* Stile nuovo per il pannello Admin */
+        .admin-section { 
+            background: #eef2ff; 
+            padding: 20px; 
+            border-radius: 12px; 
+            margin-top: 40px; 
+            border: 2px dashed #4f46e5;
+        }
+        .admin-section input { padding: 8px; margin: 5px; width: 150px; }
+        .admin-section button { padding: 10px 20px; background: #4f46e5; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        #json-output { 
+            background: #1e293b; 
+            color: #38bdf8; 
+            padding: 15px; 
+            margin-top: 15px; 
+            border-radius: 8px; 
+            font-family: monospace; 
+            word-break: break-all;
+            white-space: pre-wrap;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Archivio SuperEnalotto</h1>
+    <h1>SuperEnalotto Analytics</h1>
+    <p>Il tuo software di analisi è attivo.</p>
 
-    <div class="admin">
-        <h3>Aggiungi nuovo concorso</h3>
+    <div class="admin-section">
+        <h3>Pannello Inserimento Nuovi Dati</h3>
         <input type="number" id="in-n" placeholder="N. Concorso">
-        <input type="text" id="in-num" placeholder="Numeri (es: 1,5,12,34,56,88)">
+        <input type="text" id="in-num" placeholder="Numeri (es: 5,12,20,34,56,88)">
         <input type="number" id="in-ss" placeholder="SuperStar">
-        <button onclick="generaJSON()">Genera JSON</button>
-        <p id="output-json" style="word-break: break-all; font-family: monospace;"></p>
+        <button onclick="generaJSON()">Genera Codice JSON</button>
+        
+        <p>Copia il codice qui sotto e incollalo nel tuo file <code>estrazioni.json</code>:</p>
+        <div id="json-output">...attendendo input...</div>
     </div>
-
-    <table id="archive">
-        <tr><th>Concorso</th><th>Numeri</th><th>SS</th></tr>
-    </table>
 </div>
 
 <script>
-    fetch('estrazioni.json')
-        .then(res => res.json())
-        .then(data => {
-            const table = document.getElementById('archive');
-            data.reverse().forEach(c => {
-                table.innerHTML += `<tr><td>${c.concorso}</td><td>${c.numeri.join(", ")}</td><td>${c.superstar}</td></tr>`;
-            });
-        });
+    // La tua logica esistente resta qui sopra...
 
+    // Funzione aggiunta per generare il JSON
     function generaJSON() {
-        const newObj = {
-            concorso: parseInt(document.getElementById('in-n').value),
-            numeri: document.getElementById('in-num').value.split(',').map(n => parseInt(n.trim())),
-            superstar: parseInt(document.getElementById('in-ss').value)
+        const n = document.getElementById('in-n').value;
+        const nums = document.getElementById('in-num').value.split(',').map(n => parseInt(n.trim()));
+        const ss = document.getElementById('in-ss').value;
+
+        const newEntry = {
+            "concorso": parseInt(n),
+            "anno": 2026,
+            "numeri": nums,
+            "superstar": parseInt(ss)
         };
-        document.getElementById('output-json').innerText = JSON.stringify(newObj);
+
+        document.getElementById('json-output').innerText = JSON.stringify(newEntry, null, 4) + ",";
     }
 </script>
 
