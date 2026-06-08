@@ -41,29 +41,32 @@
 </div>
 
 <script>
+    // 1. MOTORE REAL-TIME (Caricamento e Analisi Dinamica)
     fetch('estrazioni.json')
         .then(res => res.json())
         .then(data => {
-            // ORDINE CORRETTO: Prima anno, poi concorso
+            // Ordina prima per ANNO, poi per CONCORSO
             data.sort((a, b) => {
                 if (a.anno !== b.anno) return a.anno - b.anno;
                 return a.concorso - b.concorso;
             });
             
-            // Ora l'ultimo elemento è garantito essere il più recente in assoluto
+            // Mostra l'ultimo concorso
             const last = data[data.length - 1];
-            
             document.getElementById('last-data').innerHTML = `
                 <p><strong>Concorso n. ${last.concorso} (${last.anno})</strong></p>
                 Numeri: ${last.numeri.join(", ")} <br>
                 Jolly: <strong>${last.jolly}</strong> | SuperStar: <strong>${last.superstar}</strong>
             `;
 
-            // ... (il resto del codice del motore statistico rimane uguale)
+            // CALCOLO DINAMICO (Finestra ultime 50 estrazioni)
+            const finestraTemporale = 50; 
+            const ultimiDati = data.slice(-finestraTemporale);
+
             let frequenze = {};
             let ultimaPresenza = {};
 
-            data.forEach((c, index) => {
+            ultimiDati.forEach((c, index) => {
                 c.numeri.forEach(num => {
                     frequenze[num] = (frequenze[num] || 0) + 1;
                     ultimaPresenza[num] = index;
@@ -76,6 +79,13 @@
             let dueRitardatari = sortedRitardatari.slice(0, 2).map(Number);
 
             let sestina = [...new Set([...quattroFrequenti, ...dueRitardatari])].sort((a, b) => a - b);
+
+            while(sestina.length < 6) {
+                let casuale = Math.floor(Math.random() * 90) + 1;
+                if(!sestina.includes(casuale)) sestina.push(casuale);
+            }
+            sestina.sort((a, b) => a - b);
+
             let superStar = Math.floor(Math.random() * 90) + 1;
 
             document.getElementById('sestina-generata').innerHTML = `
@@ -83,6 +93,24 @@
                 <span class="ball" style="background:#e11d48">${superStar}</span>
             `;
         });
+
+    // 2. FUNZIONE GENERAZIONE JSON (Per il tuo form)
+    function generaJSON() {
+        const n = document.getElementById('in-n').value;
+        const nums = document.getElementById('in-num').value.split(',').map(n => parseInt(n.trim()));
+        const j = parseInt(document.getElementById('in-j').value);
+        const ss = parseInt(document.getElementById('in-ss').value);
+        
+        const nuovoConcorso = {
+            "concorso": parseInt(n),
+            "anno": 2026,
+            "numeri": nums,
+            "jolly": j,
+            "superstar": ss
+        };
+
+        document.getElementById('output-json').innerText = JSON.stringify(nuovoConcorso, null, 2);
+    }
 </script>
     <script>
     function generaJSON() {
