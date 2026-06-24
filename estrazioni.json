@@ -7194,5 +7194,19 @@
   ],
   "jolly": 47,
   "superstar": 3
+},
+    {
+  "concorso": 100,
+  "anno": 2026,
+  "numeri": [
+    1,
+    12,
+    17,
+    27,
+    66,
+    84
+  ],
+  "jolly": 61,
+  "superstar": 4
 }
 ]
